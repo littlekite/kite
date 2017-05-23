@@ -1,1 +1,1 @@
-hello world ��
+这是一个简单而强大的PHP ENGINE
