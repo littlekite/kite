@@ -1,8 +1,10 @@
 <?php
 namespace core\project\index;
+use core\Template;
 class index{
     public function index(){
-        echo 1;
+        $temp = new Template();
+        $temp->display('index','index');
     }	   
 }
 ?>
