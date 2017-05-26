@@ -6,6 +6,8 @@ class Route{
             $path_info = ltrim($_SERVER['PATH_INFO'], '/');
             $path = explode('/', $path_info);
             return $path;
+        } else {
+            return array('index','index');
         }    
     }
 }
