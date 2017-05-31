@@ -5,7 +5,8 @@ class Web{
          $route = Route::check();//路由检测
          $controller = 'core\project\\'.$route[0].'\\'.$route[1];
          $class = new $controller();
-         $class->$route[1]();
+         $action = $route[1];
+         $class->$action();
     }
 }
 ?>
