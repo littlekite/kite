@@ -2,8 +2,6 @@
 namespace core;
 class Template{
     protected $data = array();
-    protected $comparison = [' nheq ' => ' !== ', ' heq ' => ' === ', ' neq ' => ' != ', ' eq ' => ' == ', ' egt ' => ' >= ', ' gt ' => ' > ', ' elt ' => ' <= ', ' lt ' => ' < '];
-
     //渲染模板
     public function display($moudel,$action){
         if(is_file(__DIR__."/project/$action/$action.html")){
@@ -50,6 +48,7 @@ class Template{
             if (preg_match_all($regex, $c, $matches, PREG_SET_ORDER | PREG_OFFSET_CAPTURE)) {
                 $right = [];
                 foreach ($matches as $match) {
+                    print_r($match);
                     if ('' == $match[1][0]) {
                         $name = strtolower($match[2][0]);
                         // 如果有没闭合的标签头则取出最后一个
@@ -127,15 +126,13 @@ class Template{
             foreach ($matches['name'] as $key => $val) {
                 $result[$val] = $matches['value'][$key];
             }
-
             if (isset($tags[$name])) {
-        
                 $tag = $tags[$name];
             }
         }
         return $result;
     }
-        /**
+    /**
      * if标签解析
      * 格式：
      * {if condition=" $a eq 1"}
@@ -150,9 +147,7 @@ class Template{
      */
     public function tagIf($tag, $content)
     {
-        $condition = !empty($tag['expression']) ? $tag['expression'] : $tag['condition'];
-        $parseStr  = '<?php if(' . $condition . '): ?>' . $content . '<?php endif; ?>';
-        
+        $parseStr  = '<?php if(' . $tag['condition'] . '): ?>' . $content . '<?php endif; ?>';
         return $parseStr;
     }
     //解析模板变量标签
