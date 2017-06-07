@@ -7,8 +7,12 @@
   </head>
   <body>
     <h1 class="hello-world">{$hw}</h1>
-    {if condition="$hw = 'hello world'"} 
+    {if condition="$hw == 'xxx'"} 
     111
+    {elseif condition="$hw == 'hello world'"}
+    333
+    {else}
+    222
     {/if}
   </body>
 </html>

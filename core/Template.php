@@ -33,7 +33,9 @@ class Template{
     public function parseTag(&$c){
         $tags = [
         // 标签定义： attr 属性列表 close 是否闭合（0 或者1 默认1） alias 标签别名 level 嵌套层次
-        'if'         => ['attr' => 'condition', 'expression' => true]
+        'if'         => ['attr' => 'condition', 'expression' => true],
+        'elseif'     => ['attr' => 'condition', 'close' => 0, 'expression' => true],
+        'else'       => ['attr' => '', 'close' => 0]
         ];
         foreach ($tags as $name => $val) {
             $close                      = !isset($val['close']) || $val['close'] ? 1 : 0;
@@ -48,7 +50,6 @@ class Template{
             if (preg_match_all($regex, $c, $matches, PREG_SET_ORDER | PREG_OFFSET_CAPTURE)) {
                 $right = [];
                 foreach ($matches as $match) {
-                    print_r($match);
                     if ('' == $match[1][0]) {
                         $name = strtolower($match[2][0]);
                         // 如果有没闭合的标签头则取出最后一个
@@ -107,6 +108,20 @@ class Template{
                 }
             }
         }
+        // 自闭合标签
+        if (!empty($tags[0])) {
+            $tags_s = array_keys($tags[0]);
+            $tagName = is_array($tags_s) ? implode('|', $tags_s) : $tags_s;
+            $regex = '/{(' . $tagName . ')\b(?>[^}]*)}/is';
+            $c = preg_replace_callback($regex, function ($matches) use (&$tags, &$lib) {
+                // 对应的标签名
+                $name  = $tags[0][strtolower($matches[1])];
+                // 解析标签属性
+                $attrs  = $this->parseAttr($matches[0], $name, '',$tags);
+                $method = 'tag' . $name;
+                return $this->$method($attrs, '');
+            }, $c);
+        }
         return;
     }
      /**
@@ -148,6 +163,31 @@ class Template{
     public function tagIf($tag, $content)
     {
         $parseStr  = '<?php if(' . $tag['condition'] . '): ?>' . $content . '<?php endif; ?>';
+        return $parseStr;
+    }
+    /**
+     * elseif标签解析
+     * 格式：见if标签
+     * @access public
+     * @param array $tag 标签属性
+     * @param string $content 标签内容
+     * @return string
+     */
+    public function tagElseif($tag)
+    {
+        $parseStr  = '<?php elseif(' . $tag['condition'] . '): ?>';
+        return $parseStr;
+    }
+    /**
+     * else标签解析
+     * 格式：见if标签
+     * @access public
+     * @param array $tag 标签属性
+     * @return string
+     */
+    public function tagElse($tag)
+    {
+        $parseStr = '<?php else: ?>';
         return $parseStr;
     }
     //解析模板变量标签
