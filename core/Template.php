@@ -35,7 +35,8 @@ class Template{
         // 标签定义： attr 属性列表 close 是否闭合（0 或者1 默认1） alias 标签别名 level 嵌套层次
         'if'         => ['attr' => 'condition', 'expression' => true],
         'elseif'     => ['attr' => 'condition', 'close' => 0, 'expression' => true],
-        'else'       => ['attr' => '', 'close' => 0]
+        'else'       => ['attr' => '', 'close' => 0],
+        'foreach'    => ['attr' => 'name,id', 'expression' => true],
         ];
         foreach ($tags as $name => $val) {
             $close                      = !isset($val['close']) || $val['close'] ? 1 : 0;
@@ -78,10 +79,11 @@ class Template{
                     // 对应的标签名
                     $name  = $tags[1][$node['name']];
                     // 解析标签属性
-                    $attrs  = $this->parseAttr($node['begin'][0], $name, '',$tags);
+                    $attrs  = $this->parseAttr($node['begin'][0], $name,$tags);
                     $method = 'tag' . $name;
-                    // 读取标签库中对应的标签内容 replace[0]用来替换标签头，replace[1]用来替换标签尾
+                    // 读取标签库中对应的标签内容 replace[0]用来替换标签头，replace[1]用来替换标签
                     $replace = explode($break, $this->$method($attrs, $break));
+                  
                     if (count($replace) > 1) {
                         while ($beginArray) {
                             $begin = end($beginArray);
@@ -107,6 +109,7 @@ class Template{
                     $c = substr_replace($c, $begin['str'], $begin['pos'], $begin['len']);
                 }
             }
+
         }
         // 自闭合标签
         if (!empty($tags[0])) {
@@ -117,11 +120,12 @@ class Template{
                 // 对应的标签名
                 $name  = $tags[0][strtolower($matches[1])];
                 // 解析标签属性
-                $attrs  = $this->parseAttr($matches[0], $name, '',$tags);
+                $attrs  = $this->parseAttr($matches[0], $name,$tags);
                 $method = 'tag' . $name;
                 return $this->$method($attrs, '');
             }, $c);
         }
+        
         return;
     }
      /**
@@ -132,7 +136,7 @@ class Template{
      * @param string $alias 别名
      * @return array
      */
-    public function parseAttr($str, $name, $alias = '',$tags)
+    public function parseAttr($str, $name,$tags)
     {
          
         $regex  = '/\s+(?>(?P<name>[\w-]+)\s*)=(?>\s*)([\"\'])(?P<value>(?:(?!\\2).)*)\\2/is';
@@ -141,8 +145,21 @@ class Template{
             foreach ($matches['name'] as $key => $val) {
                 $result[$val] = $matches['value'][$key];
             }
-            if (isset($tags[$name])) {
-                $tag = $tags[$name];
+        } else {
+            // 允许直接使用表达式的标签
+            if (!empty($tags[$name]['expression'])) {
+                
+                static $_taglibs;
+                if (!isset($_taglibs[$name])) {
+                    $_taglibs[$name][0] = strlen(ltrim('{', '\\') . $name);
+                    $_taglibs[$name][1] = strlen(ltrim('}', '\\'));
+                }
+                $result['expression'] = substr($str, $_taglibs[$name][0], -$_taglibs[$name][1]);
+                // 清除自闭合标签尾部/
+                $result['expression'] = rtrim($result['expression'], '/');
+                $result['expression'] = trim($result['expression']);
+            } elseif (empty($tags[$name]) || !empty($tags[$name]['attr'])) {
+                throw new Exception('tag error:' . $name);
             }
         }
         return $result;
@@ -190,6 +207,50 @@ class Template{
         $parseStr = '<?php else: ?>';
         return $parseStr;
     }
+    
+     /**
+     * foreach标签解析 循环输出数据集
+     * 格式：
+     * {foreach name="userList" id="user" key="key" index="i" mod="2" offset="3" length="5" empty=""}
+     * {user.username}
+     * {/foreach}
+     * @access public
+     * @param array $tag 标签属性
+     * @param string $content 标签内容
+     * @return string|void
+     */
+    public function tagForeach($tag, $content)
+    {
+         // 直接使用表达式
+        if (!empty($tag['expression'])) {
+            $expression = ltrim(rtrim($tag['expression'], ')'), '(');
+            $expression = $this->autoBuildVar($expression);
+            $parseStr   = '<?php foreach(' . $expression . '): ?>';
+            $parseStr .= $content;
+            $parseStr .= '<?php endforeach; ?>';
+            return $parseStr;
+        }
+    }
+    /**
+     * 自动识别构建变量
+     * @access public
+     * @param string $name 变量描述
+     * @return string
+     */
+    public function autoBuildVar(&$name)
+    {
+        $flag = substr($name, 0, 1);
+        if ('$' != $flag && preg_match('/[a-zA-Z_]/', $flag)) {
+            // XXX: 这句的写法可能还需要改进
+            // 常量不需要解析
+            if (defined($name)) {
+                return $name;
+            }
+            // 不以$开头并且也不是常量，自动补上$前缀
+            $name = '$' . $name;
+        }
+        return $name;
+    }
     //解析模板变量标签
     public function parse(&$c){
         $regex =  '/{((?:[\$]{1,2}[a-wA-w_]|[\:\~][\$a-wA-w_]|[+]{2}[\$][a-wA-w_]|[-]{2}[\$][a-wA-w_]|\/[\*\/])(?>(?:(?!}).)*))}/is';
@@ -219,6 +280,7 @@ class Template{
     public function read($cacheFile)
     {
         $vars = $this->data;
+        //print_r($vars);
         if (!empty($vars) && is_array($vars)) {
             // 模板阵列变量分解成为独立变量
             extract($vars, EXTR_OVERWRITE);
