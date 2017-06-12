@@ -1,0 +1,28 @@
+/*-------------------------Basic CSS-----------------------*/
+* { margin: 0; padding: 0; }
+html, body, div, span, applet, object, iframe,
+
+h1, h2, h3, h4, h5, h6, p,
+
+blockquote, pre, a, abbr, acronym, address, big,
+
+cite, code, del, dfn, em, font, img,
+
+ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+
+fieldset, form, label, legend,
+
+table, caption, tbody, tfoot, thead, tr, th, td,
+
+center, u, b, i, marquee 
+{
+margin:0 auto;
+padding: 0px;
+border: 0px;
+outline: 0px;
+}
+/*--Tell the browser to render HTML 5 elements as block--*/
+header, footer, section, aside, nav, article, panel, banner, container,body_content { display: block; }
+
+body { margin:0; padding:0; background:#fff; }
+img { border:0; margin:0; padding:0; max-width:100%; }
