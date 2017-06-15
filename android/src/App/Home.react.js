@@ -1,9 +1,20 @@
 import React, { Component, PropTypes } from 'react';
-import { ToastAndroid, ScrollView, Platform, Animated, Easing } from 'react-native';
+import { 
+StyleSheet, 
+ToastAndroid,
+ScrollView,
+Platform,
+Animated,
+Easing,
+View,
+Text,
+Image
+} from 'react-native';
 
 import routes from '../routes';
 
 import Container from '../Container';
+
 // components
 import {
     ActionButton,
@@ -11,17 +22,28 @@ import {
     ListItem,
     Toolbar,
     BottomNavigation,
-    Icon
+    Icon,
+	Card
 } from 'react-native-material-ui/src';
 
 const UP = 1;
 const DOWN = -1;
+const styles = StyleSheet.create({
+    textContainer: {
+        paddingBottom: 16,
+    },
+});
+const t_styles = StyleSheet.create({
+  titleText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+  }
+});
 
 const propTypes = {
     navigator: PropTypes.object.isRequired,
     route: PropTypes.object.isRequired,
 };
-
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -33,7 +55,7 @@ class Home extends Component {
             selected: [],
             searchText: '',
             toolbarHidden: false,
-            active: 'people',
+            active: 'home',
             moveAnimated: new Animated.Value(0),
         };
     }
@@ -111,7 +133,10 @@ class Home extends Component {
         return (
             <Toolbar
                 key="toolbar"
-                leftElement="menu"
+                leftElement={{
+					actions: ['menu'],
+					menu: { labels: ['Item 1', 'Item 2'] },
+                 }}
                 onLeftElementPress={() => this.props.navigator.pop()}
                 //centerElement={this.props.route.title}
 				centerElement="风筝互娱"
@@ -126,7 +151,7 @@ class Home extends Component {
     }
     renderItem = (title, route, pic) => {
         const searchText = this.state.searchText.toLowerCase();
-
+	
         if (searchText.length > 0 && title.toLowerCase().indexOf(searchText) < 0) {
             return null;
         }
@@ -143,45 +168,59 @@ class Home extends Component {
 
         );
     }
+
     render() {
         return (
             <Container>
                 {this.renderToolbar()}
-                <ScrollView
-                    keyboardShouldPersistTaps
-                    keyboardDismissMode="interactive"
-                    onScroll={this.onScroll}
-                >
-                    {this.renderItem('极品飞车', routes.actionButton,'airport-shuttle')}
-                </ScrollView>
+                <View>
+				  <Card>
+					<Image source={require('../img/nature-600-337.jpg')} />
+					<View style={styles.textContainer}>
+                        <Text style={t_styles.titleText}>
+							故事一则：
+                            同事们一起去吃饭，有个同事来晚了：服务员，看见我们公司的同事去哪里了吗？
+							哦，他们上二楼了。“二楼几层呀？”“二楼....
+                        </Text>
+                    </View>
+				  </Card>
+				</View>
                 <BottomNavigation
                     active={this.state.active}
                     hidden={this.state.bottomHidden}
-                    style={{ container: { position: 'absolute', bottom: 0, left: 0, right: 0,alignItems: 'center', justifyContent: 'center' } }}
+                    style={{ container: { position: 'absolute', bottom: 0, left: 0, right: 0,paddingHorizontal: 16, alignItems: 'center', justifyContent: 'center' } }}
                 >
+				   <BottomNavigation.Action
+                        key="home"
+                        icon={<Icon name="home" />}
+                        label="主页"
+                        onPress={() => this.props.navigator.resetTo(routes.home)}
+						style={{ container: { left:15} }}
+                    />
                     <BottomNavigation.Action
                         key="games"
                         icon={<Icon name="games" />}
                         label="小游戏"
-                        onPress={() => this.setState({ active: 'games' })}
+                        onPress={() => this.props.navigator.resetTo(routes.gamePage)}
                     />
                     <BottomNavigation.Action
                         key="video-call"
-                        icon="video-call"
+                        icon={<Icon name="video-call" />}
                         label="小视频"
-                        onPress={() => this.setState({ active: 'video-call' })}
+                        onPress={() => this.setState({ active: 'picture-in-picture' })}
                     />
                     <BottomNavigation.Action
                         key="picture-in-picture"
-                        icon="picture-in-picture"
+                        icon={<Icon name="picture-in-picture" />}
                         label="小图片"
                         onPress={() => this.setState({ active: 'picture-in-picture' })}
                     />
 					<BottomNavigation.Action
                         key="book"
-                        icon="book"
+                        icon={<Icon name="book" />}
                         label="小小说"
-                        onPress={() => this.setState({ active: 'book' })}
+                        onPress={() => this.props.navigator.resetTo(routes.bookPage)}
+						style={{ container: { right:15} }}
                     />
                 </BottomNavigation>
             </Container>
