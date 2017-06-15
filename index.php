@@ -8,6 +8,7 @@
 define('KITE_START', microtime(true)); //记录启动时间
 define('KITE_DEBUG', true); //调试按钮
 define('DS', DIRECTORY_SEPARATOR);
+define('APP_PATH', __DIR__ .DS);
 if(KITE_DEBUG){
     error_reporting(E_ALL); //报告所有错误
     ini_set("display_errors", 1); //显示错误
