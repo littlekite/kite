@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta charset="UTF-8">
-    <title>Hello, world!</title>
-  </head>
+{include file="header"}  
+
   <body>
     <h1 class="hello-world">{$hw}</h1>
     {if condition="$hw == 'xxx'"} 
@@ -16,6 +11,6 @@
     {/if}
     {foreach list as  $key=>$row}
     {$row}
-    {/foreach}
+    {/foreach} 
   </body>
-</html>
+{include file="footer"}  
