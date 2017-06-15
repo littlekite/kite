@@ -7,7 +7,8 @@ class Template{
         if(is_file(__DIR__."/project/$action/$action.html")){
             $c = file_get_contents(__DIR__."/project/$action/$action.html");
             $run_name = "$action/$action";
-            $this->parseTag($c);//表达式解析
+            $this->parseTag($c);//表达式解析if foreach
+            $this->parseInclude($c);//包含标签解析
             $this->parse($c);//变量解析
             //判断缓存文件是否需要更新
             $path = 'runtime/'.md5($run_name);
@@ -251,6 +252,43 @@ class Template{
         }
         return $name;
     }
+    /**
+     * 解析模板中的include标签
+     * @access private
+     * @param  string $content 要解析的模板内容
+     * @return void
+     */
+    private function parseInclude(&$c)
+    {
+        $regex = '/{include\b(?>(?:(?!file=).)*)\bfile=([\'\"])(?P<name>[\$\w\-\/\.\:@,\\\\]+)\\1(?>[^}]*)}/is';
+        $func  = function ($template) use (&$func, &$regex, &$c) {
+            if (preg_match_all($regex, $template, $matches, PREG_SET_ORDER)) {
+                foreach ($matches as $match) {
+                    $array = $this->parseAttr($match[0],'','');
+                    $file  = $array['file'];
+                    unset($array['file']);
+                    // 分析模板文件名并读取内容
+                    $parseStr = file_get_contents(APP_PATH.'core/project/index/'.$file.'.html');
+                    foreach ($array as $k => $v) {
+                        // 以$开头字符串转换成模板变量
+                        if (0 === strpos($v, '$')) {
+                            $v = $this->get(substr($v, 1));
+                        }
+                        $parseStr = str_replace('[' . $k . ']', $v, $parseStr);
+                    }
+                    $c= str_replace($match[0], $parseStr, $c);
+                    // 再次对包含文件进行模板分析
+                    $func($parseStr);
+                }
+                unset($matches);
+            }
+        };
+        // 替换模板中的include标签
+        $func($c);
+        return;
+    }
+    
+    
     //解析模板变量标签
     public function parse(&$c){
         $regex =  '/{((?:[\$]{1,2}[a-wA-w_]|[\:\~][\$a-wA-w_]|[+]{2}[\$][a-wA-w_]|[-]{2}[\$][a-wA-w_]|\/[\*\/])(?>(?:(?!}).)*))}/is';
@@ -265,6 +303,7 @@ class Template{
         }
         return;
     }
+    
     public function write($cacheFile, $content)
     {
         // 检测模板目录
