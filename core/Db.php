@@ -12,21 +12,27 @@ class Db
     public static $executeTimes = 0;
     
     /** @var PDOStatement PDO操作实例 */
-    protected $PDOStatement;
+    private $PDOStatement;
     
-    protected $linkID;
+    private $linkID;
     
-    protected $resultSetType = 'array';
+    // 返回或者影响记录数
+    private $numRows = 0;
+    
+    private static $queryType;
+    
+    private $resultSetType = 'array';
     // 查询结果类型
-    protected $fetchType = PDO::FETCH_ASSOC;
+    private $fetchType = PDO::FETCH_ASSOC;
     // PDO连接参数
-    protected $params = [
+    private $params = [
         PDO::ATTR_CASE              => PDO::CASE_NATURAL,
         PDO::ATTR_ERRMODE           => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_ORACLE_NULLS      => PDO::NULL_NATURAL,
         PDO::ATTR_STRINGIFY_FETCHES => false,
         PDO::ATTR_EMULATE_PREPARES  => false,
     ];
+    
     
     public static function connect()
     {
@@ -40,6 +46,11 @@ class Db
         // 自动初始化数据库
         if($method == 'query'){
             $method = 'querySql';
+            self::$queryType = 'select';
+        }
+         if($method == 'execute'){
+            $method = 'querySql';
+            self::$queryType = 'execute';
         }
         return call_user_func_array([self::connect(), $method], $params);
     }
@@ -165,7 +176,7 @@ class Db
             }
         }
     }
-        /**
+    /**
      * 获得数据集
      * @access protected
      * @param bool|string   $class true 返回PDOStatement 字符串用于指定返回的类名
@@ -220,18 +231,22 @@ class Db
         }
         Db::$queryTimes++;
         try {
-            // 调试开始
-            //$this->debug(true);
             // 预处理
             $this->PDOStatement = $this->linkID->prepare($sql);
             // 参数绑定
             $this->bindValue($bind);
             // 执行查询
             $result = $this->PDOStatement->execute();
-            // 调试结束
-            //$this->debug(false);
-            $procedure = in_array(strtolower(substr(trim($sql), 0, 4)), ['call', 'exec']);
-            return $this->getResult($class, $procedure);
+            //检测sql的类型 如果是查询语句则返回结果集  执行语句返回受影响的行数
+            if(self::$queryType == "select"){
+                $procedure = in_array(strtolower(substr(trim($sql), 0, 4)), ['call', 'exec']);
+                return $this->getResult($class, $procedure);
+            } else if(self::$queryType == "execute"){
+                $this->numRows = $this->PDOStatement->rowCount();
+                return $this->numRows;
+            } else {
+                throw new \Exception('wrong query!');
+            }
         } catch (\Exception $e) {
             throw new \Exception($e);
         }
