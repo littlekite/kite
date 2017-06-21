@@ -130,6 +130,18 @@ class Db
         return $this->links[$linkNum];
     }
     /**
+     * SQL指令安全过滤
+     * @access public
+     * @param string $str SQL字符串
+     * @param bool   $master 是否主库查询
+     * @return string
+     */
+    public function quote($str, $master = true)
+    {
+        $this->initConnect($master);
+        return $this->linkID ? $this->linkID->quote($str) : $str;
+    }
+    /**
      * 根据参数绑定组装最终的SQL语句 便于调试
      * @access public
      * @param string    $sql 带参数绑定的sql语句
@@ -172,7 +184,7 @@ class Db
                 $result = $this->PDOStatement->bindValue($param, $val);
             }
             if (!$result) {
-                throw new Exception("Error occurred  when binding parameters '{$param}'");
+                throw new \Exception("Error occurred  when binding parameters '{$param}'");
             }
         }
     }
@@ -205,6 +217,15 @@ class Db
         }
         return $result;
     }
+    /**
+     * 释放查询结果
+     * @access public
+     */
+    public function free()
+    {
+        $this->PDOStatement = null;
+    }
+
     /**
      * 执行查询 返回数据集
      * @access public
@@ -248,7 +269,7 @@ class Db
                 throw new \Exception('wrong query!');
             }
         } catch (\Exception $e) {
-            throw new \Exception($e);
+            throw new \Exception($e->getMessage());
         }
     }
 }
