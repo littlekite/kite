@@ -21,11 +21,14 @@ kite framwork
     * [autoload.php     自动加载文件]
     * [Input.php     数据获取文件]
     * [Db.php     数据库操作类件]
+	* [Session.php    Session会员管理文件]
     * [Common.php     公共函数]
 * [runtime      缓存目录]   
 * [public      公共资源目录]       
 # APP
 ## android
+待补充
 ---------
 ## ios
+待补充
 ---------
