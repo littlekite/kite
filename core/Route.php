@@ -10,7 +10,9 @@ class Route{
                 return array($path[0],'index');
             } else if($path_style === 2){ //标准模式
                 return $path;
-            } else { //异常 跳转到error 页面
+            } else if($path_style === 3) { //带模块/控制器/
+                return $path;
+            } else {
                 return array('index','error');
             }
         } else {

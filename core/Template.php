@@ -3,10 +3,10 @@ namespace core;
 class Template{
     protected $data = array();
     //渲染模板
-    public function display($moudel,$action){
-        if(is_file(__DIR__."/project/$action/$action.html")){
-            $c = file_get_contents(__DIR__."/project/$action/$action.html");
-            $run_name = "$action/$action";
+    public function display($name){
+        if(!empty($name)&&is_file(__DIR__.'/'.$name.'.html')){
+            $c = file_get_contents(__DIR__.'/'.$name.'.html');
+            $run_name = $name;
             $this->parseTag($c);//表达式解析if foreach
             $this->parseInclude($c);//包含标签解析
             $this->parse($c);//变量解析
