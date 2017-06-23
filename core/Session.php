@@ -19,5 +19,9 @@ class Session{
         // 最后，销毁会话
         session_destroy();
     }
+    //启动seesion
+    public static function start(){
+        session_start();
+    }
 }
 ?>
