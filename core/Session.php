@@ -23,5 +23,10 @@ class Session{
     public static function start(){
         session_start();
     }
+    //创建seesion
+    public static function creat($key,$val){
+        session_start();
+        $_SESSION[$key] = $val;
+    }
 }
 ?>
