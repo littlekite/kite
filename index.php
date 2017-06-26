@@ -1,10 +1,9 @@
 <?php
-
 /**
- * 
- * noting Wait add
- * 
-*/
+ **********************
+ * try angin now
+ **********************
+ */
 define('KITE_START', microtime(true)); //记录启动时间
 define('KITE_DEBUG', true); //调试按钮
 define('DS', DIRECTORY_SEPARATOR);
