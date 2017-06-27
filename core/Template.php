@@ -268,7 +268,7 @@ class Template{
                     $file  = $array['file'];
                     unset($array['file']);
                     // 分析模板文件名并读取内容
-                    $parseStr = file_get_contents(APP_PATH.'core/project/index/'.$file.'.html');
+                    $parseStr = file_get_contents(APP_PATH.'core/public/'.$file.'.html');
                     foreach ($array as $k => $v) {
                         // 以$开头字符串转换成模板变量
                         if (0 === strpos($v, '$')) {
