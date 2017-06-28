@@ -222,9 +222,10 @@ class Template{
      */
     public function tagForeach($tag, $content)
     {
+                        
          // 直接使用表达式
-        if (!empty($tag['expression'])) {
-            $expression = ltrim(rtrim($tag['expression'], ')'), '(');
+        if (!empty($tag['condition'])) {
+            $expression = ltrim(rtrim($tag['condition'], ')'), '(');
             $expression = $this->autoBuildVar($expression);
             $parseStr   = '<?php foreach(' . $expression . '): ?>';
             $parseStr .= $content;
