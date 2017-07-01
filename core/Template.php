@@ -3,7 +3,7 @@ namespace core;
 class Template{
     protected $data = array();
     //渲染模板
-    public function display($name){
+    public function display($name){;
         if(!empty($name)&&is_file(__DIR__.'/'.$name.'.html')){
             $c = file_get_contents(__DIR__.'/'.$name.'.html');
             $run_name = $name;
@@ -11,7 +11,7 @@ class Template{
             $this->parseInclude($c);//包含标签解析
             $this->parse($c);//变量解析
             //判断缓存文件是否需要更新
-            $path = 'runtime/'.md5($run_name);
+            $path = CACHE_PATH.md5($run_name).'.php';
             if(is_file( $path)){
                 $handle = @fopen( $path, "r");
                 // 读取第一行
@@ -22,7 +22,7 @@ class Template{
             } else {
                 $this->write($path,$c);
             }
-            $this->read('runtime/'.md5($run_name));
+            $this->read(CACHE_PATH.md5($run_name).'.php');
         }else{
             throw new \Exception('template is not found!');
         }  
