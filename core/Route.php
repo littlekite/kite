@@ -4,6 +4,9 @@ class Route{
     //路由检测
     public static function check(){
         if( isset($_SERVER['PATH_INFO']) ){
+            if (strrpos($_SERVER['PATH_INFO'], 'html')) {
+                 $_SERVER['PATH_INFO'] = substr($_SERVER['PATH_INFO'], 0, -5);
+            }
             $path_info = ltrim($_SERVER['PATH_INFO'], '/');
             $path = explode('/', $path_info);
             $path_style = count($path);
