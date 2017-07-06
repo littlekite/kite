@@ -25,7 +25,9 @@ class Session{
     }
     //创建seesion
     public static function creat($key,$val){
-        session_start();
+        if(PHP_SESSION_ACTIVE != session_status()){ //session没有被创建
+            session_start();
+        } 
         $_SESSION[$key] = $val;
     }
 }
