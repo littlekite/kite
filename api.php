@@ -17,6 +17,8 @@
     $m = $post['m'];
     $method_list = require 'core/enum/Method.php';         
     if (!empty($m)&&!empty($method_list[$m])) {
+        $d_string = json_encode($post);
+        core\Db::execute("INSERT INTO `k_getdata` (`id`, `data`) VALUES (null, ?)",[$d_string]);  
         $method = $method_list[$m];
         $table = $method['t'];
         $function = $method['a'];
@@ -24,4 +26,7 @@
         $class = '\\core\\api\\'.$table;
         $model = new $class();
         echo $model->$function();   
+    } else {
+        $d_string = json_encode($post)."have request but no param";
+        core\Db::execute("INSERT INTO `k_getdata` (`id`, `data`) VALUES (null, ?)",[$d_string]); 
     }
