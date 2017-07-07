@@ -27,8 +27,14 @@ class Template{
             throw new \Exception('template is not found!');
         }  
     }
-    public function assign($name,$value){
-        $this->data[$name] = $value;
+    public function assign($name,$value = null){
+        if(is_array($name)){
+            foreach($name as $k=>$r){
+                $this->data[$k] = $r;
+            }
+        } else {
+            $this->data[$name] = $value;
+        }  
     }
     //解析模板表达式标签
     public function parseTag(&$c){
