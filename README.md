@@ -18,7 +18,8 @@ kite framwork
         * [login       后台登录模块] 
             * [index.php 登录模块控制器]
             * [index.html 登录模块index方法模板文件]   
-    
+    * [data     数据文件目录]  
+	* [upload     上传文件目录]  	
 	* [Web.php     web项目入口]                           
     * [Template.php     模板解析文件]
     * [Route.php     路由文件]
