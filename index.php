@@ -16,6 +16,8 @@ define('CACHE_PATH', RUNTIME_PATH . 'cache' . DS);
 if(KITE_DEBUG){
     define('KITE_START', microtime(true)); //记录启动时间 debug
     define('SERVER_START_MEM', memory_get_usage()); //记录内存使用debug
+    define('SERVER_START_TIME', microtime(true));
+    define('LOG_PATH', RUNTIME_PATH . '/log/common' .DS);
     error_reporting(E_ALL); //报告所有错误
     ini_set("display_errors", 1); //显示错误
 }
@@ -25,6 +27,9 @@ core\Kite::createWebApplication('core\Web')->run(); //启动web程序
 define('KITE_END', microtime(true)); //记录终止时间
 $runtime = number_format(KITE_END - KITE_START, 10);
 
+if(KITE_DEBUG){
+    core\Log::save(); //如果调试状态 记录日志信息
+}
 //debug区域
 /*
 $memory_use = number_format((memory_get_usage() - SERVER_START_MEM) / 1024, 2);

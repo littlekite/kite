@@ -30,6 +30,7 @@ kite framwork
 	* [Session.php    Session会员管理文件]
     * [Common.php     公共函数]
     * [Config.php     数据库连接文件]
+	* [Log.php        日志记录文件]
 * [runtime      缓存目录]
     * [cache       数据缓存目录] 
     * [log         日志数据存取目录]  	

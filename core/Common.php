@@ -1,5 +1,6 @@
 <?php
 use core\Input;
+use core\Log;
 /**
  * 获取请求参数
  * @return array 返回参数集合
@@ -36,5 +37,10 @@ function get_client_ip($type = 0,$adv=false) {
     $long = sprintf("%u",ip2long($ip));
     $ip   = $long ? array($ip, $long) : array('0.0.0.0', 0);
     return $ip[$type];
+}
+function writelog($msg = '')
+{
+    Log::record($msg,'error');
+    return "{'result':false,'info':$log}";
 }
 ?>

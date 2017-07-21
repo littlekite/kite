@@ -6,7 +6,7 @@
     define('SERVER_PATH', __DIR__ .DS);
     define('RUNTIME_PATH', SERVER_PATH . 'runtime' . DS);
     define('CACHE_PATH', RUNTIME_PATH . 'cache' . DS);
-    define('LOG_PATH', RUNTIME_PATH . 'log' .DS);
+    define('LOG_PATH', RUNTIME_PATH . '/log/api' .DS);
     require __DIR__.'/core/Autoload.php'; //加载核心自动载入文件
     require __DIR__.'/core/Common.php';
     if(KITE_DEBUG){
@@ -19,7 +19,7 @@
     } else {
         $d_string = "have request but no param";  
     }
-    core\Db::execute("INSERT INTO `k_getdata` (`id`, `data`) VALUES (null, ?)",[$d_string]); 
+    core\Db::execute("INSERT INTO `k_getdata` (`id`, `data`) VALUES (null, ?)",[$d_string]); //记录每一个请求信息
     $m = $post['m'];
     $method_list = require 'core/enum/Method.php';        
     if (!empty($m)&&!empty($method_list[$m])) {
@@ -29,5 +29,8 @@
         require 'core/api/'.$table.'.php';
         $class = '\\core\\api\\'.$table;
         $model = new $class();
-        echo $model->$function();   
+        echo $model->$function();  
+        if(KITE_DEBUG){
+            core\Log::save(); //如果调试状态 记录日志信息
+        }
     }
