@@ -27,8 +27,8 @@ class Log
      * @param array $log 日志信息
      * @return bool
      */
-   public static function save(array $log = [])
-    {
+   public static function save()
+    { 
         $now         = date(self::$config['time_format']);
         $destination = self::$config['path'] . date('Ym') . DS . date('d') . '.log';
 
@@ -59,7 +59,8 @@ class Log
         $remote = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '0.0.0.0';
         $method = isset($_SERVER['REQUEST_METHOD']) ? $_SERVER['REQUEST_METHOD'] : 'CLI';
         $uri    = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '';
-        foreach ($log as $type => $val) {
+        
+        foreach (self::$log as $type => $val) {
             $level = '';
             foreach ($val as $msg) {
                 if (!is_string($msg)) {

@@ -2,6 +2,7 @@
 namespace core;
 use PDO;
 use PDOStatement;
+use core\Log;
 class Db
 {
     //  数据库连接实例
@@ -10,6 +11,8 @@ class Db
     public static $queryTimes = 0;
     // 执行次数
     public static $executeTimes = 0;
+    // 当前的SQL指令
+    protected $queryStr = '';
     
     /** @var PDOStatement PDO操作实例 */
     private $PDOStatement;
@@ -245,13 +248,16 @@ class Db
         }
         // 根据参数绑定组装最终的SQL语句
         $this->queryStr = $this->getRealSql($sql, $bind);
-
         //释放前次的查询结果
         if (!empty($this->PDOStatement)) {
             $this->free();
         }
         Db::$queryTimes++;
-        try {
+        try { 
+            //debug 模式 SQL性能分析
+            if ( KITE_DEBUG && 0 === stripos(trim($sql), 'select')) {
+                $this->getExplain($this->queryStr);
+            }
             // 预处理
             $this->PDOStatement = $this->linkID->prepare($sql);
             // 参数绑定
@@ -271,5 +277,23 @@ class Db
         } catch (\Exception $e) {
             throw new \Exception($e->getMessage());
         }
+    }
+    
+    /**
+     * SQL性能分析
+     * @access protected
+     * @param string $sql
+     * @return array
+     */
+    protected function getExplain($sql)
+    {
+        $result = $this->querySql("EXPLAIN " . $sql);
+        $result = array_change_key_case($result[0]);
+        if (isset($result['extra'])) {
+            if (strpos($result['extra'], 'filesort') || strpos($result['extra'], 'temporary')) {
+                Log::record('SQL:' . $this->queryStr . '[' . $result['extra'] . ']', 'warn');
+            }
+        }
+        Log::record('[ EXPLAIN : ' . var_export($result, true) . ' ]', 'sql');
     }
 }
