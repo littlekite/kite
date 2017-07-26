@@ -7,10 +7,6 @@ class Db
 {
     //  数据库连接实例
     private static $instance = null;
-    // 查询次数
-    public static $queryTimes = 0;
-    // 执行次数
-    public static $executeTimes = 0;
     // 当前的SQL指令
     protected $queryStr = '';
     
@@ -35,8 +31,6 @@ class Db
         PDO::ATTR_STRINGIFY_FETCHES => false,
         PDO::ATTR_EMULATE_PREPARES  => false,
     ];
-    
-    
     public static function connect()
     {
         if (empty(self::$instance)) {
@@ -194,30 +188,17 @@ class Db
     /**
      * 获得数据集
      * @access protected
-     * @param bool|string   $class true 返回PDOStatement 字符串用于指定返回的类名
      * @param bool          $procedure 是否存储过程
      * @return mixed
      */
-    protected function getResult($class = '', $procedure = false)
+    protected function getResult($procedure = false)
     {
-        if (true === $class) {
-            // 返回PDOStatement对象处理
-            return $this->PDOStatement;
-        }
         if ($procedure) {
             // 存储过程返回结果
-            return $this->procedure($class);
+            //return $this->procedure();
         }
         $result        = $this->PDOStatement->fetchAll($this->fetchType);
         $this->numRows = count($result);
-
-        if (!empty($class)) {
-            // 返回指定数据集对象类
-            $result = new $class($result);
-        } elseif ('collection' == $this->resultSetType) {
-            // 返回数据集Collection对象
-            $result = new Collection($result);
-        }
         return $result;
     }
     /**
@@ -228,19 +209,17 @@ class Db
     {
         $this->PDOStatement = null;
     }
-
     /**
      * 执行查询 返回数据集
      * @access public
      * @param string        $sql sql指令
      * @param array         $bind 参数绑定
      * @param boolean       $master 是否在主服务器读操作
-     * @param bool|string   $class 指定返回的数据集对象
      * @return mixed
      * @throws BindParamException
      * @throws PDOException
      */
-    public function querySql($sql, $bind = [], $master = false, $class = false)
+    public function querySql($sql, $bind = [], $master = false)
     {
         $this->initConnect($master);
         if (!$this->linkID) {
@@ -252,7 +231,6 @@ class Db
         if (!empty($this->PDOStatement)) {
             $this->free();
         }
-        Db::$queryTimes++;
         try { 
             //debug 模式 SQL性能分析
             if ( KITE_DEBUG && 0 === stripos(trim($sql), 'select')) {
@@ -267,7 +245,7 @@ class Db
             //检测sql的类型 如果是查询语句则返回结果集  执行语句返回受影响的行数
             if(self::$queryType == "select"){
                 $procedure = in_array(strtolower(substr(trim($sql), 0, 4)), ['call', 'exec']);
-                return $this->getResult($class, $procedure);
+                return $this->getResult($procedure);
             } else if(self::$queryType == "execute"){
                 $this->numRows = $this->PDOStatement->rowCount();
                 return $this->numRows;
