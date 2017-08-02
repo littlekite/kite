@@ -19,7 +19,7 @@
     } else {
         $d_string = "have request but no param";  
     }
-    core\Db::execute("INSERT INTO `k_getdata` (`id`, `data`) VALUES (null, ?)",[$d_string]); //记录每一个请求信息
+    core\Db::execute("INSERT INTO `k_getdata` (`id`, `data`, `data_url`) VALUES (null, ?, ?)",[$d_string,$_SERVER['REQUEST_URI']]); //记录每一个请求信息
     $m = $post['m'];
     $method_list = require 'core/enum/Method.php';        
     if (!empty($m)&&!empty($method_list[$m])) {
