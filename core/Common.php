@@ -41,6 +41,6 @@ function get_client_ip($type = 0,$adv=false) {
 function writelog($msg = '')
 {
     Log::record($msg,'error');
-    return "{'result':false,'info':$log}";
+    return "{'code':100,'msg':$msg}";
 }
 ?>
