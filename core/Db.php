@@ -45,9 +45,12 @@ class Db
             $method = 'querySql';
             self::$queryType = 'select';
         }
-         if($method == 'execute'){
+        if($method == 'execute'){
             $method = 'querySql';
             self::$queryType = 'execute';
+        }
+        if($method == 'getId'){
+            $method = 'getLastInsID';
         }
         return call_user_func_array([self::connect(), $method], $params);
     }
@@ -208,6 +211,17 @@ class Db
     public function free()
     {
         $this->PDOStatement = null;
+    }
+     /**
+     * 获取最近插入的ID
+     * @access public
+     * @param string  $sequence     自增序列名
+     * @return string
+     */
+    public function getLastInsID($sequence = null)
+    {
+        $this->linkID = $this->connectDb();
+        return $this->linkID->lastInsertId($sequence);
     }
     /**
      * 执行查询 返回数据集
