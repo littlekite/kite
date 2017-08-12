@@ -21,6 +21,20 @@ class Log
     {
         self::$log[$type][] = $msg;
     }
+    //日志读取
+    public static function getRecord($type = 'return')
+    {
+          foreach (self::$log as $t => $val) {
+                if ($t == $type) {
+                    foreach ($val as $msg) {
+                        if (!is_string($msg)) {
+                            $msg = var_export($msg, true);
+                        }
+                    }
+                    return  $msg;
+                }  
+          }  
+    }
     /**
      * 日志写入接口
      * @access public
