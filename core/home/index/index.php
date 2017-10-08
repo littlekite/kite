@@ -14,6 +14,7 @@ class index{
         $temp->assign('list',$test_array);
         //读取数据库
         $res =Db::query("SELECT id, `name`, `password` FROM k_account WHERE `name` = 'yankuan' AND `password` = '123456'");  
+        print_r($res);
         $temp->display('home/index/index');   
     }	   
 }

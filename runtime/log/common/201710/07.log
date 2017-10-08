@@ -1,0 +1,32 @@
+[ 2017-10-07T02:47:00+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/index.php
+[ log ] 127.0.0.1/kite/index.php [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：178.25kb] [文件加载：12]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'k_account',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+
+---------------------------------------------------------------
+[ 2017-10-07T02:47:18+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/index.php
+[ log ] 127.0.0.1/kite/index.php [运行时间：0.004000s][吞吐率：249.99req/s] [内存消耗：178.67kb] [文件加载：12]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'k_account',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+
+---------------------------------------------------------------

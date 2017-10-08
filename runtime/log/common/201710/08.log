@@ -1,0 +1,18 @@
+[ 2017-10-08T14:37:46+08:00 ] 192.168.8.102 192.168.8.9 GET /
+[ log ] 192.168.8.102/ [运行时间：0.053943s][吞吐率：18.54req/s] [内存消耗：74.79kb] [文件加载：11]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'k_account',
+  'partitions' => NULL,
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'filtered' => 100.0,
+  'extra' => 'Using where',
+) ]
+
+---------------------------------------------------------------
