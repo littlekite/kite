@@ -68,7 +68,7 @@ class Log
         $memory_str = ' [内存消耗：' . $memory_use . 'kb]';
         $file_load  = ' [文件加载：' . count(get_included_files()) . ']';
 
-        $info   = '[ log ] ' . $current_uri . $time_str . $memory_str . $file_load . "\r\n";
+        $info   = '[ log ] ' . $current_uri . $time_str . $memory_str . $file_load . "\r\n" . var_export(get_included_files(), true) . "\r\n";
         $server = isset($_SERVER['SERVER_ADDR']) ? $_SERVER['SERVER_ADDR'] : '0.0.0.0';
         $remote = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '0.0.0.0';
         $method = isset($_SERVER['REQUEST_METHOD']) ? $_SERVER['REQUEST_METHOD'] : 'CLI';
