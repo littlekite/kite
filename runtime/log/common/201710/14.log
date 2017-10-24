@@ -1,0 +1,16 @@
+[ 2017-10-14T09:12:35+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.070000s][吞吐率：14.29req/s] [内存消耗：176.77kb] [文件加载：11]
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'k_account',
+  'type' => 'ALL',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'extra' => 'Using where',
+) ]
+
+---------------------------------------------------------------

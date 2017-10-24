@@ -3,29 +3,29 @@ namespace core;
 class Template{
     protected $data = array();
     //渲染模板
-    public function display($name){;
-        if(!empty($name)&&is_file(__DIR__.'/'.$name.'.html')){
-            $c = file_get_contents(__DIR__.'/'.$name.'.html');
-            $run_name = $name;
-            $this->parseTag($c);//表达式解析if foreach
-            $this->parseInclude($c);//包含标签解析
-            $this->parse($c);//变量解析
-            //判断缓存文件是否需要更新
-            $path = CACHE_PATH.md5($run_name).'.php';
-            if(is_file( $path)){
-                $handle = @fopen( $path, "r");
-                // 读取第一行
-                preg_match('/\/\*(.+?)\*\//', fgets($handle), $matches);
-                if (!isset($matches[1])) {
-                    $this->write($path,$c);
-                }
-            } else {
+    public function display($name){
+        $tem_path = APP_PATH.$name.'.html';
+        if (!is_file($tem_path)) {
+            throw new \Exception('template is not found!');
+        } 
+        $c = file_get_contents($tem_path);
+        $run_name = $name;
+        $this->parseTag($c);//表达式解析if foreach
+        $this->parseInclude($c);//包含标签解析
+        $this->parse($c);//变量解析
+        //判断缓存文件是否需要更新
+        $path = CACHE_PATH.md5($run_name).'.php';
+        if(is_file( $path)){
+            $handle = @fopen( $path, "r");
+            // 读取第一行
+            preg_match('/\/\*(.+?)\*\//', fgets($handle), $matches);
+            if (!isset($matches[1])) {
                 $this->write($path,$c);
             }
-            $this->read(CACHE_PATH.md5($run_name).'.php');
-        }else{
-            throw new \Exception('template is not found!');
-        }  
+        } else {
+            $this->write($path,$c);
+        }
+        $this->read(CACHE_PATH.md5($run_name).'.php'); 
     }
     public function assign($name,$value = null){
         if(is_array($name)){

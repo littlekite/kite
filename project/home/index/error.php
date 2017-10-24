@@ -1,5 +1,5 @@
 <?php
-namespace core\home\index;
+namespace project\home\index;
 use core\Template;
 class error{
     public function error(){
