@@ -1,5 +1,4 @@
 <?php
-namespace core\tpcl\gump;
 /**
  * GUMP - A fast, extensible PHP input validation class.
  *
@@ -9,6 +8,7 @@ namespace core\tpcl\gump;
  *
  * @version     1.5
  */
+namespace core\tpcl\gump;
 class GUMP
 {
     // Singleton instance of GUMP
@@ -387,12 +387,16 @@ class GUMP
 
             $look_for = array('required_file', 'required');
 
-            if (count(array_intersect($look_for, $rules)) > 0 || (isset($input[$field]) && !is_array($input[$field]))) {
+            if (count(array_intersect($look_for, $rules)) > 0 || (isset($input[$field]))) {
 
-                if (is_array($input[$field])) {
-                    $input_array = $input[$field];
+                if (isset($input[$field])) {
+                    if (is_array($input[$field]) && in_array('required_file', $ruleset)) {
+                        $input_array = $input[$field];
+                    } else {
+                        $input_array = array($input[$field]);
+                    }
                 } else {
-                    $input_array = array($input[$field]);
+                    $input_array = array('');
                 }
 
                 foreach ($input_array as $value) {
@@ -577,7 +581,7 @@ class GUMP
                 if (is_array($param)) {
                     $param = implode(', ', $param);
                 }
-                $message = str_replace('{param}', $param, str_replace('{field}', $field, $messages[$e['rule']]));
+                $message = str_replace('{param}', $param, str_replace('{field}', '<span class="'.$field_class.'">'.$field.'</span>', $messages[$e['rule']]));
                 $resp[] = $message;
             } else {
                 throw new \Exception ('Rule "'.$e['rule'].'" does not have an error message');
@@ -1949,9 +1953,9 @@ class GUMP
             $allowed_extensions = explode(';', $param);
 
             $path_info = pathinfo($input[$field]['name']);
-            $extension = $path_info['extension'];
+            $extension = isset($path_info['extension']) ? $path_info['extension'] : false;
 
-            if (in_array($extension, $allowed_extensions)) {
+            if ($extension && in_array($extension, $allowed_extensions)) {
                 return;
             }
 
