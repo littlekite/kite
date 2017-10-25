@@ -3,7 +3,7 @@ kite framwork
 一个简单极简强大的PHP框架
 ---------------
 ****
-### Author:yankuan（阿宽）
+### Author:yankuan
 ### E-mail:1026431088@qq.com
 # WEB
 ## 极其精简的PHP框架 组件式编程 组件分离 运行超快
