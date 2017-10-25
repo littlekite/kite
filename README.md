@@ -9,6 +9,8 @@ kite framwork
 ## 极其精简的PHP框架 组件式编程 组件分离 运行超快
 ## 目录  
 * [index.php    主入口文件]
+* [api.php      API入口文件]
+* [Config.php   数据库连接文件]
 * [core      核心类库] 
     * [data     数据文件目录]  
 	* [upload     上传文件目录]                         
@@ -20,7 +22,6 @@ kite framwork
     * [Db.php     数据库操作类件]
 	* [Session.php    Session会员管理文件]
     * [Common.php     公共函数]
-    * [Config.php     数据库连接文件]
 	* [Log.php        日志记录文件]
 * [project    测试项目目录]
     * [home      项目前台入口]
