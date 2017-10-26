@@ -40,10 +40,10 @@ class Template{
     public function parseTag(&$c){
         $tags = [
         // 标签定义： attr 属性列表 close 是否闭合（0 或者1 默认1） alias 标签别名 level 嵌套层次
-        'if'         => ['attr' => 'condition', 'expression' => true],
-        'elseif'     => ['attr' => 'condition', 'close' => 0, 'expression' => true],
+        'if'         => ['expression' => true],
+        'elseif'     => ['close' => 0, 'expression' => true],
         'else'       => ['attr' => '', 'close' => 0],
-        'foreach'    => ['attr' => 'name,id', 'expression' => true],
+        'foreach'    => ['expression' => true],
         ];
         foreach ($tags as $name => $val) {
             $close                      = !isset($val['close']) || $val['close'] ? 1 : 0;
@@ -90,7 +90,6 @@ class Template{
                     $method = 'tag' . $name;
                     // 读取标签库中对应的标签内容 replace[0]用来替换标签头，replace[1]用来替换标签
                     $replace = explode($break, $this->$method($attrs, $break));
-                  
                     if (count($replace) > 1) {
                         while ($beginArray) {
                             $begin = end($beginArray);
@@ -155,7 +154,6 @@ class Template{
         } else {
             // 允许直接使用表达式的标签
             if (!empty($tags[$name]['expression'])) {
-                
                 static $_taglibs;
                 if (!isset($_taglibs[$name])) {
                     $_taglibs[$name][0] = strlen(ltrim('{', '\\') . $name);
@@ -174,11 +172,11 @@ class Template{
     /**
      * if标签解析
      * 格式：
-     * {if condition=" $a eq 1"}
-     * {elseif condition="$a eq 2" /}
-     * {else /}
+     * {if(count($list)!=1)}
+     * {$list[0]['name']}
+     * {else}
+     * {$list[1]['name']}
      * {/if}
-     * 表达式支持 eq neq gt egt lt elt == > >= < <= or and || &&
      * @access public
      * @param array $tag 标签属性
      * @param string $content 标签内容
@@ -186,7 +184,7 @@ class Template{
      */
     public function tagIf($tag, $content)
     {
-        $parseStr  = '<?php if(' . $tag['condition'] . '): ?>' . $content . '<?php endif; ?>';
+        $parseStr  = '<?php if' . $tag['expression'] . ': ?>' . $content . '<?php endif; ?>';
         return $parseStr;
     }
     /**
@@ -199,7 +197,7 @@ class Template{
      */
     public function tagElseif($tag)
     {
-        $parseStr  = '<?php elseif(' . $tag['condition'] . '): ?>';
+        $parseStr  = '<?php elseif' . $tag['expression'] . ': ?>';
         return $parseStr;
     }
     /**
@@ -218,46 +216,21 @@ class Template{
      /**
      * foreach标签解析 循环输出数据集
      * 格式：
-     * {foreach name="userList" id="user" key="key" index="i" mod="2" offset="3" length="5" empty=""}
-     * {user.username}
-     * {/foreach}
+     *{foreach($list as $k=>$r)}
+     *{$r['id']}
+     *{/foreach}
      * @access public
      * @param array $tag 标签属性
      * @param string $content 标签内容
      * @return string|void
      */
     public function tagForeach($tag, $content)
-    {
-                        
-         // 直接使用表达式
-        if (!empty($tag['condition'])) {
-            $expression = ltrim(rtrim($tag['condition'], ')'), '(');
-            $expression = $this->autoBuildVar($expression);
-            $parseStr   = '<?php foreach(' . $expression . '): ?>';
-            $parseStr .= $content;
-            $parseStr .= '<?php endforeach; ?>';
-            return $parseStr;
-        }
-    }
-    /**
-     * 自动识别构建变量
-     * @access public
-     * @param string $name 变量描述
-     * @return string
-     */
-    public function autoBuildVar(&$name)
-    {
-        $flag = substr($name, 0, 1);
-        if ('$' != $flag && preg_match('/[a-zA-Z_]/', $flag)) {
-            // XXX: 这句的写法可能还需要改进
-            // 常量不需要解析
-            if (defined($name)) {
-                return $name;
-            }
-            // 不以$开头并且也不是常量，自动补上$前缀
-            $name = '$' . $name;
-        }
-        return $name;
+    {              
+        $parseStr   = '<?php foreach' . $tag['expression'] . ': ?>';
+        $parseStr .= $content;
+        $parseStr .= '<?php endforeach; ?>';
+        return $parseStr;
+        
     }
     /**
      * 解析模板中的include标签

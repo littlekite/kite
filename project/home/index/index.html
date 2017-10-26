@@ -1,1 +1,15 @@
-1111111111111
+
+
+
+{if(count($list)!=1)}
+{$list[0]['name']}
+{else}
+{$list[1]['name']}
+{/if}
+
+
+
+
+{foreach($list as $k=>$r)}
+{$r['id']}
+{/foreach}
