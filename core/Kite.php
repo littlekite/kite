@@ -3,6 +3,7 @@ namespace core;
 class Kite{
     public static function run(){
          $route = Route::check();//路由检测
+         print_r($route);
          if(count($route)==2){ //默认home模块
             $controller = 'project\home\\'.$route[0].'\\'.$route[1];
             $action = $route[1]; 
@@ -13,6 +14,7 @@ class Kite{
             $controller = 'project\home\index\error'; 
             $action = 'error';
          }
+         echo $controller;
          $class = new $controller();
          $class->$action();
     }
