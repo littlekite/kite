@@ -55,12 +55,7 @@ class Log
         }
 
         // 获取基本信息
-        if (isset($_SERVER['HTTP_HOST'])) {
-            $current_uri = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-        } else {
-            $current_uri = "cmd:" . implode(' ', $_SERVER['argv']);
-        }
-
+        $current_uri = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
         $runtime    = number_format(microtime(true) - SERVER_START_TIME, 10);
         $reqs       = $runtime > 0 ? number_format(1 / $runtime, 2) : '∞';
         $time_str   = ' [运行时间：' . number_format($runtime, 6) . 's][吞吐率：' . $reqs . 'req/s]';
