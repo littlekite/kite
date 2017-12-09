@@ -6,10 +6,13 @@
  * ╢╰━┫┈┈┈┈┈╰╯╰┳━╯┣ 
  * ╢┊┊┃┏┳┳━━┓┏┳┫┊┊┣ 
  * ╨━━┗┛┗┛━━┗┛┗┛━━┻
+ * author yankuan
+ * link https://github.com/littlekite/kite
+ * email 1026431088@qq.com
  */
 define('KITE_DEBUG', true); //调试按钮
 define('DS', DIRECTORY_SEPARATOR);
-define('APP_PATH', __DIR__ .DS);
+define('APP_PATH', __DIR__ . DS);
 define('RUNTIME_PATH', APP_PATH . 'runtime' . DS);
 define('CACHE_PATH', RUNTIME_PATH . 'cache' . DS);
 if (KITE_DEBUG) {
