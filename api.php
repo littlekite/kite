@@ -1,5 +1,6 @@
 <?php    
     define('KITE_DEBUG', true);
+    define('VISIT_RECORD', true); //行为记录
     define('SERVER_START_TIME', microtime(true));
     define('SERVER_START_MEM', memory_get_usage());
     define('DS', DIRECTORY_SEPARATOR);
@@ -13,13 +14,15 @@
     if (KITE_DEBUG) {
         error_reporting(E_ALL);
         ini_set("display_errors", 1);
-        if (!empty($post)) {
-            $d_string = json_encode($post); 
-        } else {
-            $d_string = "have request but no params";  
+        if (VISIT_RECORD) {
+            if (!empty($post)) {
+                $d_string = json_encode($post); 
+            } else {
+                $d_string = "have request but no params";  
+            }
+            core\Db::execute("INSERT INTO `k_getdata` (`id`, `data`, `data_url`) VALUES (null, ?, ?)", [$d_string, $_SERVER['REQUEST_URI']]); //记录每一个请求信息
+            $id = core\Db::getId(); //获取请求记录的ID
         }
-        core\Db::execute("INSERT INTO `k_getdata` (`id`, `data`, `data_url`) VALUES (null, ?, ?)", [$d_string, $_SERVER['REQUEST_URI']]); //记录每一个请求信息
-        $id = core\Db::getId(); //获取请求记录的ID
     }
     $m = $post['m'];
     $method_list = require 'project/api/static/Method.php';        
@@ -31,9 +34,11 @@
         $class = '\\project\\api\\'.$table;
         $model = new $class();
         echo $model->$function();  
-        if(KITE_DEBUG){
-            core\Log::save(); //如果调试状态 记录日志信息  
-            $log = core\Log::getRecord('return');
-            core\Db::execute("UPDATE `k_getdata` SET `response_data`=? WHERE (`id`=?)", [$log, $id]); //记录返回结果    
-        } 
+        if (KITE_DEBUG) {
+            core\Log::save(); //如果调试状态 记录日志信息
+            if (VISIT_RECORD) { //如果开启了行为记录
+                $log = core\Log::getRecord('return');
+                core\Db::execute("UPDATE `k_getdata` SET `response_data`=? WHERE (`id`=?)", [$log, $id]); //记录返回结果 
+            }
+        }   
     }
