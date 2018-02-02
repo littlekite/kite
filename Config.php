@@ -22,5 +22,7 @@ return [
     // 数据库调试模式
     'debug'          => true,
     //日志文件大小
-    'file_size'=> 10240    
+    'file_size'=> 10240,
+    //模块列表
+    'module_list' => ['home','admin']    
 ];
