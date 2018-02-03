@@ -12,7 +12,7 @@ class index{
         $res = Db::query("SELECT id, `name`, `password` FROM k_account");
         var_dump($res);
         $temp->assign('list',$res);
-        $temp->display('project/home/index');   
+        $temp->display('index');   
     }	   
 }
 ?>

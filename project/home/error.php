@@ -1,10 +1,10 @@
 <?php
-namespace project\home\index;
+namespace project\home;
 use core\Template;
 class error{
     public function error(){
         $temp = new Template();
-        $temp->display('home/index/error');   
+        $temp->display('error');   
     }	   
 }
 ?>
