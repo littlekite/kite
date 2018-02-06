@@ -34,4 +34,19 @@ layui.use(['form','layer','jquery'],function(){
             $(this).parent().removeClass("layui-input-active");
         }
     })
+    $("#userName").focusout(function(){
+         var userName = $(this).val();
+         var api_url = "api.php";
+         if (api_path) {
+            api_url = api_path+api_url;
+         }
+         $.ajax({
+           type: "POST",
+           url: api_url,
+           data: "m=1&userName="+userName,
+           success: function(msg){
+             alert( "Data Saved: " + msg );
+           }
+        });
+    });
 })

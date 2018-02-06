@@ -1,0 +1,45 @@
+[ 2018-02-05T07:58:39+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/api.php?m=1&t=test
+[ log ] 127.0.0.1/kite/api.php?m=1&t=test [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：148.29kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp\\www\\kite\\api.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp\\www\\kite\\project\\api\\test.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-02-05T07:58:47+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/api.php?m=1&t=test
+[ log ] 127.0.0.1/kite/api.php?m=1&t=test [运行时间：0.007000s][吞吐率：142.86req/s] [内存消耗：148.08kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp\\www\\kite\\api.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp\\www\\kite\\project\\api\\test.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-02-05T07:59:17+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/api.php?m=1
+[ log ] 127.0.0.1/kite/api.php?m=1 [运行时间：0.004000s][吞吐率：250.00req/s] [内存消耗：147.82kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp\\www\\kite\\api.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp\\www\\kite\\project\\api\\test.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------

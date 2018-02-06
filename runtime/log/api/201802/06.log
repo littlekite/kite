@@ -1,0 +1,320 @@
+[ 2018-02-06T03:26:07+00:00 ] 127.0.0.1 127.0.0.1 POST /kite/api.php
+[ log ] 127.0.0.1/kite/api.php [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：151.80kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp\\www\\kite\\api.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-02-06T03:26:31+00:00 ] 127.0.0.1 127.0.0.1 POST /kite/api.php
+[ log ] 127.0.0.1/kite/api.php [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：151.75kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp\\www\\kite\\api.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-02-06T03:27:08+00:00 ] 127.0.0.1 127.0.0.1 POST /kite/api.php
+[ log ] 127.0.0.1/kite/api.php [运行时间：0.006000s][吞吐率：166.67req/s] [内存消耗：155.99kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp\\www\\kite\\api.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'partitions' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'filtered' => NULL,
+  'extra' => 'Impossible WHERE noticed after reading const tables',
+) ]
+
+---------------------------------------------------------------
+[ 2018-02-06T03:27:37+00:00 ] 127.0.0.1 127.0.0.1 POST /kite/api.php
+[ log ] 127.0.0.1/kite/api.php [运行时间：0.012000s][吞吐率：83.33req/s] [内存消耗：156.96kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp\\www\\kite\\api.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'partitions' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'filtered' => NULL,
+  'extra' => 'Impossible WHERE noticed after reading const tables',
+) ]
+
+---------------------------------------------------------------
+[ 2018-02-06T03:27:53+00:00 ] 127.0.0.1 127.0.0.1 POST /kite/api.php
+[ log ] 127.0.0.1/kite/api.php [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：157.16kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp\\www\\kite\\api.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'k_account',
+  'partitions' => NULL,
+  'type' => 'system',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'filtered' => 100,
+  'extra' => NULL,
+) ]
+
+---------------------------------------------------------------
+[ 2018-02-06T03:29:25+00:00 ] 127.0.0.1 127.0.0.1 POST /kite/api.php
+[ log ] 127.0.0.1/kite/api.php [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：157.47kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp\\www\\kite\\api.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'partitions' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'filtered' => NULL,
+  'extra' => 'Impossible WHERE noticed after reading const tables',
+) ]
+
+---------------------------------------------------------------
+[ 2018-02-06T03:29:35+00:00 ] 127.0.0.1 127.0.0.1 POST /kite/api.php
+[ log ] 127.0.0.1/kite/api.php [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：157.70kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp\\www\\kite\\api.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'k_account',
+  'partitions' => NULL,
+  'type' => 'system',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'filtered' => 100,
+  'extra' => NULL,
+) ]
+
+---------------------------------------------------------------
+[ 2018-02-06T03:29:50+00:00 ] 127.0.0.1 127.0.0.1 POST /kite/api.php
+[ log ] 127.0.0.1/kite/api.php [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：157.23kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp\\www\\kite\\api.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'partitions' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'filtered' => NULL,
+  'extra' => 'Impossible WHERE noticed after reading const tables',
+) ]
+
+---------------------------------------------------------------
+[ 2018-02-06T03:29:53+00:00 ] 127.0.0.1 127.0.0.1 POST /kite/api.php
+[ log ] 127.0.0.1/kite/api.php [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：157.45kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp\\www\\kite\\api.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'k_account',
+  'partitions' => NULL,
+  'type' => 'system',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'filtered' => 100,
+  'extra' => NULL,
+) ]
+
+---------------------------------------------------------------
+[ 2018-02-06T03:30:04+00:00 ] 127.0.0.1 127.0.0.1 POST /kite/api.php
+[ log ] 127.0.0.1/kite/api.php [运行时间：0.019000s][吞吐率：52.63req/s] [内存消耗：157.25kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp\\www\\kite\\api.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'partitions' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'filtered' => NULL,
+  'extra' => 'Impossible WHERE noticed after reading const tables',
+) ]
+
+---------------------------------------------------------------
+[ 2018-02-06T03:30:09+00:00 ] 127.0.0.1 127.0.0.1 POST /kite/api.php
+[ log ] 127.0.0.1/kite/api.php [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：157.44kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp\\www\\kite\\api.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'k_account',
+  'partitions' => NULL,
+  'type' => 'system',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'filtered' => 100,
+  'extra' => NULL,
+) ]
+
+---------------------------------------------------------------
+[ 2018-02-06T03:32:00+00:00 ] 127.0.0.1 127.0.0.1 POST /kite/api.php
+[ log ] 127.0.0.1/kite/api.php [运行时间：0.008000s][吞吐率：125.00req/s] [内存消耗：157.44kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp\\www\\kite\\api.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'k_account',
+  'partitions' => NULL,
+  'type' => 'system',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'filtered' => 100,
+  'extra' => NULL,
+) ]
+
+---------------------------------------------------------------
