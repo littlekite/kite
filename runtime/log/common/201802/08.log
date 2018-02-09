@@ -1,0 +1,47 @@
+[ 2018-02-08T02:41:30+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/admin
+[ log ] 127.0.0.1/kite/admin [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：276.85kb] [文件加载：11]
+array (
+  0 => 'D:\\wamp\\www\\kite\\index.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\admin\\index.php',
+  7 => 'D:\\wamp\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  9 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+  10 => 'D:\\wamp\\www\\kite\\runtime\\cache\\5fcc857194416e8d32bee124bd24b919.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'k_account',
+  'partitions' => NULL,
+  'type' => 'system',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'filtered' => 100,
+  'extra' => NULL,
+) ]
+
+---------------------------------------------------------------
+[ 2018-02-08T02:41:31+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/favicon.ico
+[ log ] 127.0.0.1/kite/favicon.ico [运行时间：0.005000s][吞吐率：200.00req/s] [内存消耗：176.09kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp\\www\\kite\\index.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\home\\error.php',
+  7 => 'D:\\wamp\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp\\www\\kite\\runtime\\cache\\cb5e100e5a9a3e7f6d1fd97512215282.php',
+  9 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------

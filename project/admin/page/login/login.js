@@ -12,9 +12,27 @@ layui.use(['form','layer','jquery'],function(){
     //登录按钮
     form.on("submit(login)",function(data){
         $(this).text("登录中...").attr("disabled","disabled").addClass("layui-disabled");
-        setTimeout(function(){
-            window.location.href = "/layuicms2.0";
-        },1000);
+        var userName = $("#userName").val();
+        var passWord = $("#password").val();
+        var api_url = "api.php";
+        if (api_path) {
+            api_url = api_path+api_url;
+        }
+        $.ajax({
+            type: "POST",
+            url: api_url,
+            dataType: "json",
+            data: "m=1&userName="+userName+"&passWord="+passWord,
+            success: function(msg){
+               if (msg.status == 2) {
+                    $('.layui-btn').text("登录").removeAttr("disabled").removeClass("layui-disabled");
+                    layer.msg(msg.info,{
+                        time:5000
+                    });
+                    
+               }
+            }
+       }); 
         return false;
     })
 
@@ -34,19 +52,4 @@ layui.use(['form','layer','jquery'],function(){
             $(this).parent().removeClass("layui-input-active");
         }
     })
-    $("#userName").focusout(function(){
-         var userName = $(this).val();
-         var api_url = "api.php";
-         if (api_path) {
-            api_url = api_path+api_url;
-         }
-         $.ajax({
-           type: "POST",
-           url: api_url,
-           data: "m=1&userName="+userName,
-           success: function(msg){
-             alert( "Data Saved: " + msg );
-           }
-        });
-    });
 })
