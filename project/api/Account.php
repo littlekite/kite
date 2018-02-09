@@ -13,9 +13,9 @@ class Account{
         $input = input();
         if (!empty($input['userName']) && !empty($input['passWord'])) {
             $res_query = Db::query("SELECT id, `name`, `password` FROM k_account WHERE name = '".$input['userName']."'");
-            if (!empty($res_query)) {
+            if (!empty($res_query[0])) {
                 //开始检查密码
-                if ($res_query['password'] == $input['passWord']) {
+                if ($res_query[0]['password'] == $input['passWord']) {
                     $res['status'] = 1;//有效用户名
                     $res['info'] = "用户名有效";
                 } else {

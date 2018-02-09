@@ -12,7 +12,7 @@ layui.use(['form','layer','jquery'],function(){
     //登录按钮
     form.on("submit(login)",function(data){
         $(this).text("登录中...").attr("disabled","disabled").addClass("layui-disabled");
-        var userName = $("#userName").val();
+        var userName = $("#username").val();
         var passWord = $("#password").val();
         var api_url = "api.php";
         if (api_path) {
@@ -25,12 +25,15 @@ layui.use(['form','layer','jquery'],function(){
             data: "m=1&userName="+userName+"&passWord="+passWord,
             success: function(msg){
                if (msg.status == 2) {
-                    $('.layui-btn').text("登录").removeAttr("disabled").removeClass("layui-disabled");
                     layer.msg(msg.info,{
                         time:5000
+                    });  
+               } else {
+                    layer.msg("登录成功",{
+                        time:5000
                     });
-                    
                }
+               $('.layui-btn').text("登录").removeAttr("disabled").removeClass("layui-disabled");
             }
        }); 
         return false;
