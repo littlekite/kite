@@ -7,12 +7,26 @@ class index{
     public function index(){
         $temp = new Template();
         //基本的模板标签测试 
+        /*
         $temp->assign('hw','1');
         //读取数据库
         $res = Db::query("SELECT id, `name`, `password` FROM k_account");
-        var_dump($res);
         $temp->assign('list',$res);
+        */
         $temp->display('index');   
     }	   
 }
+/*
+{if ($list)}
+    {if(count($list)==1)}
+    {$list[0]['name']}
+    {else}
+    {$list[1]['name']}
+    {/if}
+{/if}   
+{foreach($list as $k=>$r)}
+{$r['id']}
+{/foreach}
+*/
 ?>
+

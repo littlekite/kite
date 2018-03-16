@@ -1,0 +1,31 @@
+[ 2018-02-10T01:32:54+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/admin/index.html
+[ log ] 127.0.0.1/kite/admin/index.html [运行时间：0.019000s][吞吐率：52.63req/s] [内存消耗：281.16kb] [文件加载：11]
+array (
+  0 => 'D:\\wamp\\www\\kite\\index.php',
+  1 => 'D:\\wamp\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp\\www\\kite\\Config.php',
+  6 => 'D:\\wamp\\www\\kite\\project\\admin\\index.php',
+  7 => 'D:\\wamp\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp\\www\\kite\\core\\Db.php',
+  9 => 'D:\\wamp\\www\\kite\\core\\Log.php',
+  10 => 'D:\\wamp\\www\\kite\\runtime\\cache\\5fcc857194416e8d32bee124bd24b919.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'k_account',
+  'partitions' => NULL,
+  'type' => 'system',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'filtered' => 100,
+  'extra' => NULL,
+) ]
+
+---------------------------------------------------------------
