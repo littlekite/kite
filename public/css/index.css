@@ -1,28 +1,37 @@
 /*-------------------------Basic CSS-----------------------*/
-* { margin: 0; padding: 0; }
-html, body, div, span, applet, object, iframe,
 
-h1, h2, h3, h4, h5, h6, p,
-
-blockquote, pre, a, abbr, acronym, address, big,
-
-cite, code, del, dfn, em, font, img,
-
-ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
-
-fieldset, form, label, legend,
-
-table, caption, tbody, tfoot, thead, tr, th, td,
-
-center, u, b, i, marquee 
-{
-margin:0 auto;
-padding: 0px;
-border: 0px;
-outline: 0px;
+body { 
+    color: #4a4a4a;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
 }
-/*--Tell the browser to render HTML 5 elements as block--*/
-header, footer, section, aside, nav, article, panel, banner, container,body_content { display: block; }
-
-body { margin:0; padding:0; background:#fff; }
-img { border:0; margin:0; padding:0; max-width:100%; }
+.bd-patreon-button {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+.bd-patreon-button img {
+    border-radius: 4px;
+    display: block;
+    max-height: none!important;
+}
+@media screen and (min-width: 1088px) .intro-columns{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width: 1088px) .intro-column .is-content {
+    margin-right: 1.5rem;
+}
+@media screen and (min-width: 1088px) .intro-column .is-video {
+    margin-left: 1.5rem;
+}
+@media screen and (min-width: 1088px) .intro-column{
+    width: calc(50% - 1.5rem);
+}
+@media screen and (min-width: 1088px) .intro-content{
+    max-width: 440px;
+}
+@media screen and (min-width: 1088px) .intro-title:not(:last-child) {
+    margin-bottom: 20px;
+}

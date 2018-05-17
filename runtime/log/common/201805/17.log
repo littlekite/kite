@@ -1,0 +1,1888 @@
+[ 2018-05-17T09:57:52+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.139480s][吞吐率：7.17req/s] [内存消耗：176.71kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:06:14+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.010158s][吞吐率：98.44req/s] [内存消耗：176.95kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:07:03+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.010606s][吞吐率：94.29req/s] [内存消耗：177.21kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:07:46+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.009014s][吞吐率：110.94req/s] [内存消耗：177.30kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:07:59+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.011027s][吞吐率：90.69req/s] [内存消耗：177.39kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:08:37+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.025278s][吞吐率：39.56req/s] [内存消耗：177.79kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:15:13+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.005403s][吞吐率：185.08req/s] [内存消耗：180.71kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:15:35+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.005722s][吞吐率：174.76req/s] [内存消耗：180.48kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:19:36+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.005134s][吞吐率：194.78req/s] [内存消耗：176.76kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:19:40+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.007479s][吞吐率：133.71req/s] [内存消耗：176.70kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:24:11+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.013005s][吞吐率：76.89req/s] [内存消耗：205.23kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:24:18+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.010602s][吞吐率：94.32req/s] [内存消耗：205.29kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:24:46+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.011100s][吞吐率：90.09req/s] [内存消耗：205.29kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:33:53+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.012491s][吞吐率：80.06req/s] [内存消耗：205.29kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:33:54+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.009967s][吞吐率：100.33req/s] [内存消耗：205.29kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:40:55+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.013146s][吞吐率：76.07req/s] [内存消耗：205.29kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:40:56+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.011135s][吞吐率：89.81req/s] [内存消耗：205.29kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:41:51+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.010864s][吞吐率：92.05req/s] [内存消耗：205.29kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:42:10+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.012564s][吞吐率：79.59req/s] [内存消耗：205.29kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:42:45+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.018270s][吞吐率：54.73req/s] [内存消耗：238.01kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:53:13+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.026103s][吞吐率：38.31req/s] [内存消耗：238.01kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:54:01+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.017027s][吞吐率：58.73req/s] [内存消耗：238.01kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T10:54:13+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.026992s][吞吐率：37.05req/s] [内存消耗：238.01kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T11:03:06+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.017044s][吞吐率：58.67req/s] [内存消耗：238.01kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T11:03:36+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.017863s][吞吐率：55.98req/s] [内存消耗：238.01kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T11:03:53+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.025199s][吞吐率：39.68req/s] [内存消耗：238.01kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T11:03:55+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.026141s][吞吐率：38.25req/s] [内存消耗：238.01kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T11:03:55+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.022680s][吞吐率：44.09req/s] [内存消耗：238.01kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T11:03:55+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.019160s][吞吐率：52.19req/s] [内存消耗：238.01kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T11:06:03+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.014759s][吞吐率：67.75req/s] [内存消耗：238.01kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T11:32:00+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.028020s][吞吐率：35.69req/s] [内存消耗：236.82kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T11:32:30+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.031478s][吞吐率：31.77req/s] [内存消耗：236.82kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:12:29+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.126910s][吞吐率：7.88req/s] [内存消耗：244.40kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:13:11+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.016901s][吞吐率：59.17req/s] [内存消耗：243.91kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:13:31+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.016618s][吞吐率：60.18req/s] [内存消耗：243.91kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:26:29+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.023161s][吞吐率：43.18req/s] [内存消耗：246.65kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:27:26+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.021186s][吞吐率：47.20req/s] [内存消耗：246.89kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:31:30+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.018609s][吞吐率：53.74req/s] [内存消耗：248.41kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:32:37+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.024151s][吞吐率：41.41req/s] [内存消耗：247.98kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:33:03+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.021580s][吞吐率：46.34req/s] [内存消耗：247.98kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:35:34+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.013924s][吞吐率：71.82req/s] [内存消耗：232.89kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:36:36+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.016935s][吞吐率：59.05req/s] [内存消耗：233.36kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:37:07+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.029950s][吞吐率：33.39req/s] [内存消耗：233.32kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:37:29+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.016277s][吞吐率：61.44req/s] [内存消耗：233.34kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:37:46+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.019510s][吞吐率：51.26req/s] [内存消耗：233.34kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:37:56+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.017570s][吞吐率：56.92req/s] [内存消耗：233.34kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:37:58+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.022199s][吞吐率：45.05req/s] [内存消耗：233.34kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:38:00+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.023049s][吞吐率：43.39req/s] [内存消耗：233.34kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:38:01+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.018751s][吞吐率：53.33req/s] [内存消耗：233.34kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:38:03+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.028687s][吞吐率：34.86req/s] [内存消耗：233.34kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:38:04+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.013380s][吞吐率：74.74req/s] [内存消耗：233.34kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:38:07+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.019984s][吞吐率：50.04req/s] [内存消耗：233.34kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:38:09+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.016100s][吞吐率：62.11req/s] [内存消耗：233.34kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:38:11+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.019117s][吞吐率：52.31req/s] [内存消耗：233.34kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:39:59+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.014826s][吞吐率：67.45req/s] [内存消耗：248.14kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:40:13+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.016429s][吞吐率：60.87req/s] [内存消耗：248.14kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:40:43+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.026702s][吞吐率：37.45req/s] [内存消耗：248.15kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:41:00+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.021668s][吞吐率：46.15req/s] [内存消耗：248.15kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:43:03+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.067855s][吞吐率：14.74req/s] [内存消耗：247.13kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:43:21+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.020406s][吞吐率：49.01req/s] [内存消耗：246.66kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:44:29+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.020894s][吞吐率：47.86req/s] [内存消耗：231.73kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:44:40+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.024407s][吞吐率：40.97req/s] [内存消耗：231.73kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:47:03+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.015134s][吞吐率：66.08req/s] [内存消耗：231.73kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:47:21+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.016092s][吞吐率：62.14req/s] [内存消耗：231.62kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:49:20+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.012271s][吞吐率：81.49req/s] [内存消耗：231.62kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:49:44+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.016258s][吞吐率：61.51req/s] [内存消耗：246.67kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:52:23+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.017740s][吞吐率：56.37req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:52:30+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.022944s][吞吐率：43.58req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:52:34+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.012994s][吞吐率：76.96req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:52:37+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.017395s][吞吐率：57.49req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:52:39+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.016456s][吞吐率：60.77req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:52:41+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.015768s][吞吐率：63.42req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:52:43+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.013348s][吞吐率：74.92req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:52:46+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.015886s][吞吐率：62.95req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:52:48+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.015802s][吞吐率：63.28req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:52:49+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.024268s][吞吐率：41.21req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:52:52+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.034159s][吞吐率：29.27req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:52:54+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.016612s][吞吐率：60.20req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:52:55+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.014665s][吞吐率：68.19req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T13:52:56+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.022590s][吞吐率：44.27req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T14:09:53+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.025135s][吞吐率：39.79req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T14:09:57+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.014534s][吞吐率：68.80req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T14:10:02+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.038524s][吞吐率：25.96req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T14:10:05+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.017372s][吞吐率：57.56req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T14:10:08+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.022801s][吞吐率：43.86req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T14:10:10+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.017496s][吞吐率：57.16req/s] [内存消耗：230.93kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:26:56+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.018169s][吞吐率：55.04req/s] [内存消耗：230.88kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:27:35+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.014331s][吞吐率：69.78req/s] [内存消耗：230.88kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:37:18+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.182972s][吞吐率：5.47req/s] [内存消耗：221.60kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:38:28+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.015565s][吞吐率：64.25req/s] [内存消耗：237.62kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:38:45+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.018597s][吞吐率：53.77req/s] [内存消耗：237.62kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:39:35+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.030715s][吞吐率：32.56req/s] [内存消耗：237.62kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:40:56+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.017358s][吞吐率：57.61req/s] [内存消耗：237.62kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:40:57+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.018027s][吞吐率：55.47req/s] [内存消耗：237.62kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:41:28+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.023927s][吞吐率：41.79req/s] [内存消耗：237.63kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:41:37+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.028812s][吞吐率：34.71req/s] [内存消耗：237.63kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:41:55+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.018199s][吞吐率：54.95req/s] [内存消耗：237.65kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:42:01+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.016420s][吞吐率：60.90req/s] [内存消耗：237.68kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:42:05+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.016926s][吞吐率：59.08req/s] [内存消耗：237.68kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:42:17+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.022877s][吞吐率：43.71req/s] [内存消耗：237.60kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:42:21+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.016758s][吞吐率：59.67req/s] [内存消耗：237.62kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:42:36+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.032168s][吞吐率：31.09req/s] [内存消耗：237.59kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:43:05+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.028415s][吞吐率：35.19req/s] [内存消耗：237.69kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:43:06+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.020562s][吞吐率：48.63req/s] [内存消耗：237.69kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:44:03+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.017596s][吞吐率：56.83req/s] [内存消耗：237.63kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:44:06+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.020923s][吞吐率：47.79req/s] [内存消耗：237.63kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:46:31+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.018901s][吞吐率：52.91req/s] [内存消耗：237.65kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:47:17+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.034837s][吞吐率：28.71req/s] [内存消耗：237.65kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:53:33+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.015582s][吞吐率：64.18req/s] [内存消耗：237.63kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:54:39+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.038463s][吞吐率：26.00req/s] [内存消耗：237.65kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:55:06+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.023330s][吞吐率：42.86req/s] [内存消耗：237.65kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T16:56:01+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.026357s][吞吐率：37.94req/s] [内存消耗：236.43kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T17:07:46+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.020638s][吞吐率：48.45req/s] [内存消耗：236.45kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T17:09:19+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.020065s][吞吐率：49.84req/s] [内存消耗：236.45kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T17:13:24+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.011566s][吞吐率：86.46req/s] [内存消耗：220.69kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T17:13:38+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.015965s][吞吐率：62.64req/s] [内存消耗：220.69kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T17:13:57+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.013122s][吞吐率：76.21req/s] [内存消耗：220.67kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-05-17T17:15:35+08:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.015904s][吞吐率：62.88req/s] [内存消耗：221.13kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------

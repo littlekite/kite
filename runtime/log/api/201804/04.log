@@ -1,0 +1,190 @@
+[ 2018-04-04T05:25:41+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/api.php?m=1
+[ log ] 127.0.0.1/kite/api.php?m=1 [运行时间：0.039768s][吞吐率：25.15req/s] [内存消耗：153.88kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\api.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp64\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-04-04T05:25:45+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/api.php?m=1
+[ log ] 127.0.0.1/kite/api.php?m=1 [运行时间：0.020317s][吞吐率：49.22req/s] [内存消耗：153.67kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\api.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp64\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-04-04T05:26:33+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/api.php?m=1&userName=yankuan
+[ log ] 127.0.0.1/kite/api.php?m=1&userName=yankuan [运行时间：0.008613s][吞吐率：116.10req/s] [内存消耗：153.93kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\api.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp64\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-04-04T05:26:49+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/api.php?m=1&userName=yankuan&passWord=1223
+[ log ] 127.0.0.1/kite/api.php?m=1&userName=yankuan&passWord=1223 [运行时间：0.034519s][吞吐率：28.97req/s] [内存消耗：158.49kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\api.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp64\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'k_account',
+  'partitions' => NULL,
+  'type' => 'system',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'filtered' => 100,
+  'extra' => NULL,
+) ]
+
+---------------------------------------------------------------
+[ 2018-04-04T05:26:52+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/api.php?m=1&userName=yankuan&passWord=123456
+[ log ] 127.0.0.1/kite/api.php?m=1&userName=yankuan&passWord=123456 [运行时间：0.019994s][吞吐率：50.01req/s] [内存消耗：158.49kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\api.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp64\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'k_account',
+  'partitions' => NULL,
+  'type' => 'system',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'filtered' => 100,
+  'extra' => NULL,
+) ]
+
+---------------------------------------------------------------
+[ 2018-04-04T05:27:34+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/api.php?m=1&username=yankuan&password=123456
+[ log ] 127.0.0.1/kite/api.php?m=1&username=yankuan&password=123456 [运行时间：0.049006s][吞吐率：20.41req/s] [内存消耗：158.29kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\api.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp64\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => NULL,
+  'partitions' => NULL,
+  'type' => NULL,
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => NULL,
+  'filtered' => NULL,
+  'extra' => 'Impossible WHERE noticed after reading const tables',
+) ]
+
+---------------------------------------------------------------
+[ 2018-04-04T05:27:54+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/api.php?m=1&username=yankuan&password=123456
+[ log ] 127.0.0.1/kite/api.php?m=1&username=yankuan&password=123456 [运行时间：0.043951s][吞吐率：22.75req/s] [内存消耗：158.46kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\api.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp64\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'k_account',
+  'partitions' => NULL,
+  'type' => 'system',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'filtered' => 100,
+  'extra' => NULL,
+) ]
+
+---------------------------------------------------------------
+[ 2018-04-04T05:28:20+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/api.php?m=1&username=yankuan&password=123456
+[ log ] 127.0.0.1/kite/api.php?m=1&username=yankuan&password=123456 [运行时间：0.029655s][吞吐率：33.72req/s] [内存消耗：158.48kb] [文件加载：9]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\api.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Input.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Db.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\api\\static\\Method.php',
+  7 => 'D:\\wamp64\\www\\kite\\project\\api\\Account.php',
+  8 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+[ sql ] [ EXPLAIN : array (
+  'id' => 1,
+  'select_type' => 'SIMPLE',
+  'table' => 'k_account',
+  'partitions' => NULL,
+  'type' => 'system',
+  'possible_keys' => NULL,
+  'key' => NULL,
+  'key_len' => NULL,
+  'ref' => NULL,
+  'rows' => 1,
+  'filtered' => 100,
+  'extra' => NULL,
+) ]
+
+---------------------------------------------------------------

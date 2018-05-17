@@ -1,0 +1,48 @@
+[ 2018-03-21T03:54:18+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/aframe.min.js.map
+[ log ] 127.0.0.1/kite/aframe.min.js.map [运行时间：0.012060s][吞吐率：82.92req/s] [内存消耗：176.25kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\error.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\cb5e100e5a9a3e7f6d1fd97512215282.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-03-21T03:54:52+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/aframe.min.js.map
+[ log ] 127.0.0.1/kite/aframe.min.js.map [运行时间：0.008008s][吞吐率：124.88req/s] [内存消耗：176.26kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\error.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\cb5e100e5a9a3e7f6d1fd97512215282.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-03-21T03:59:28+00:00 ] 192.168.8.38 192.168.8.38 GET /kite/
+[ log ] 192.168.8.38/kite/ [运行时间：0.016206s][吞吐率：61.71req/s] [内存消耗：176.69kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------

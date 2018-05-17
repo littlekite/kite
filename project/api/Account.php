@@ -11,11 +11,11 @@ class Account{
     public function verifyAdminLogin(){  
         $res = [];
         $input = input();
-        if (!empty($input['userName']) && !empty($input['passWord'])) {
-            $res_query = Db::query("SELECT id, `name`, `password` FROM k_account WHERE name = '".$input['userName']."'");
+        if (!empty($input['username']) && !empty($input['password'])) {
+            $res_query = Db::query("SELECT id, `name`, `password` FROM k_account WHERE name = '".$input['username']."'");
             if (!empty($res_query[0])) {
                 //开始检查密码
-                if ($res_query[0]['password'] == $input['passWord']) {
+                if ($res_query[0]['password'] == $input['password']) {
                     $res['status'] = 1;//有效用户名
                     $res['info'] = "用户名有效";
                 } else {

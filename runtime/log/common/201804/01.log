@@ -1,0 +1,96 @@
+[ 2018-04-01T08:13:11+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.118679s][吞吐率：8.43req/s] [内存消耗：176.55kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-04-01T08:20:53+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.015668s][吞吐率：63.82req/s] [内存消耗：176.65kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-04-01T08:26:06+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.018696s][吞吐率：53.49req/s] [内存消耗：176.94kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-04-01T08:30:44+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：180.92kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-04-01T08:31:14+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.014975s][吞吐率：66.78req/s] [内存消耗：180.80kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2018-04-01T08:31:42+00:00 ] 127.0.0.1 127.0.0.1 GET /kite/
+[ log ] 127.0.0.1/kite/ [运行时间：0.012657s][吞吐率：79.01req/s] [内存消耗：180.91kb] [文件加载：10]
+array (
+  0 => 'D:\\wamp64\\www\\kite\\index.php',
+  1 => 'D:\\wamp64\\www\\kite\\core\\Autoload.php',
+  2 => 'D:\\wamp64\\www\\kite\\core\\Common.php',
+  3 => 'D:\\wamp64\\www\\kite\\core\\Kite.php',
+  4 => 'D:\\wamp64\\www\\kite\\core\\Route.php',
+  5 => 'D:\\wamp64\\www\\kite\\Config.php',
+  6 => 'D:\\wamp64\\www\\kite\\project\\home\\index.php',
+  7 => 'D:\\wamp64\\www\\kite\\core\\Template.php',
+  8 => 'D:\\wamp64\\www\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  9 => 'D:\\wamp64\\www\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
