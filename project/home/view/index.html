@@ -6,7 +6,7 @@
     <meta name="description" content="" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="http://127.0.0.1/kite/public/css/bulma.min.css">
     <link rel="icon" href="http://127.0.0.1/kite/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="http://127.0.0.1/kite/favicon.ico" type="image/x-icon" />
     <link href="http://127.0.0.1/kite/public/css/index.css" rel="stylesheet" type="text/css" />
@@ -184,7 +184,7 @@
       </div>
       </div>
     </nav>
-<section class="hero is-medium intro">
+<section class="hero intro">
   <div class="hero-body">
   
     <div class="container">
@@ -192,7 +192,7 @@
       <div class="column">
       
              <div class="intro-iframe">
-              <iframe id="introIframe" src="https://player.vimeo.com/video/237608586?color=00d1b2" width="640" height="338" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-vimeo-tracked="true"></iframe>
+              <iframe id="introIframe" src="" width="740" height="538" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-vimeo-tracked="true"></iframe>
             </div>
       </div>
       <div class="column">
@@ -221,7 +221,6 @@
         </span>
       </figure>
     </a>
-
     <a class="bd-focus-item column has-text-centered" href="https://bulma.io/documentation/overview/modular">
       <p class="title is-4">
         <strong>Modular</strong>
@@ -286,5 +285,32 @@
     </div>
   </div>
 </footer>
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function () {
+
+  // Get all "navbar-burger" elements
+  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Check if there are any navbar burgers
+  if ($navbarBurgers.length > 0) {
+
+    // Add a click event on each of them
+    $navbarBurgers.forEach(function ($el) {
+      $el.addEventListener('click', function () {
+
+        // Get the target from the "data-target" attribute
+        var target = $el.dataset.target;
+        var $target = document.getElementById(target);
+
+        // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+        $el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+
+});
+</script>
   </body>
 </html>
