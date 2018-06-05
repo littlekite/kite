@@ -4,7 +4,7 @@ class Template{
     protected $data = array();
     //渲染模板
     public function display($name){
-        $tem_path = APP_PATH.'project\\'.MOUDEL_NAME.'\\view\\'.$name.'.html';
+        $tem_path = APP_PATH.'project'. DS . MOUDEL_NAME . DS .'view'. DS .$name.'.html';
         if (!is_file($tem_path)) {
             throw new \Exception('template is not found!');
         } 
