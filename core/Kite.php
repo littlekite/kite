@@ -7,6 +7,12 @@ class Kite{
          if (in_array($route[0], $config['module_list'])){
             //设置模块常量
             define('MOUDEL_NAME', $route[0]);
+            //设置当前模板路径常量
+            if (!empty($_SERVER['REQUEST_URI']) && !empty($_SERVER['PATH_INFO'])){
+                $pos = strpos($_SERVER['REQUEST_URI'], $_SERVER['PATH_INFO']);
+                $view_url = substr($_SERVER['REQUEST_URI'], 0, $pos).'/project/'.MOUDEL_NAME.'/view/';
+                define('VIEW_URL', $view_url);
+            }
             if (count($route) == 2 && empty($route[1])) { //默认home模块
                 $controller = 'project\\'.$route[0].'\\index';
                 $action = 'index'; 
