@@ -24,7 +24,7 @@
             $id = core\Db::getId(); //获取请求记录的ID
         }
     }
-    $m = $post['m'];
+    $m = (isset($post['m']) && $post['m'] != '') ? $post['m'] : '';
     $method_list = require 'project/api/static/Method.php';        
     if (!empty($m) && !empty($method_list[$m])) {
         $method = $method_list[$m];
@@ -41,4 +41,9 @@
                 core\Db::execute("UPDATE `k_getdata` SET `response_data`=? WHERE (`id`=?)", [$log, $id]); //记录返回结果 
             }
         }   
+    } else {
+         $res = [];
+         $res['status'] = 2;//失败
+         $res['info'] = "请求失败，无权限";
+         echo json_encode($res);
     }
