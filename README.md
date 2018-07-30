@@ -36,11 +36,4 @@ kite framwork
 * [runtime      缓存目录]
     * [cache       数据缓存目录] 
     * [log         日志数据存取目录]  	
-* [public      公共资源目录]       
-# APP
-## android
-待补充
----------
-## ios
-待补充
----------
+* [public      公共资源目录]
