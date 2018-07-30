@@ -276,7 +276,15 @@ class Template{
               foreach ($matches as $match) {
                 $flag = substr($match[1], 0, 1);
                 if($flag == "$"){
-                    $match[1] = '<?php echo ' . $match[1]. '; ?>';
+                    if (strpos($match[1], '|')) { //使用过的函数
+                        $varArray = explode('|', $match[1]);
+                        // 取得变量名称
+                        $val = $varArray[0];
+                        $fun = $varArray[1];
+                        $match[1] = "<?php echo $fun($val); ?>";
+                    } else {
+                        $match[1] = '<?php echo ' . $match[1]. '; ?>';
+                    }
                 }
                 $c = str_replace($match[0], $match[1], $c);
               }
