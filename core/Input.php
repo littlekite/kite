@@ -8,6 +8,10 @@ class Input
         $data = $_POST;
         if (empty($data)) {
             $data = $_POST = $_GET;
+        } else {
+            if (!empty($_GET['m'])) {
+                $data['m'] = $_GET['m'];
+            }
         }
         if (!empty($data)) {
             $filters[] = 'htmlspecialchars';

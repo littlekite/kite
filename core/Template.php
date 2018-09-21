@@ -10,8 +10,8 @@ class Template{
         } 
         $c = file_get_contents($tem_path);
         $run_name = $name;
-        $this->parseTag($c);//表达式解析if foreach
         $this->parseInclude($c);//包含标签解析
+        $this->parseTag($c);//表达式解析if foreach
         $this->parse($c);//变量解析
         //判断缓存文件是否需要更新
         $path = CACHE_PATH.md5($run_name).'.php';
