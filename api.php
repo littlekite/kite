@@ -24,7 +24,7 @@
             $id = core\Db::getId(); //获取请求记录的ID
         }
     }
-    $m = (isset($data['m']) && $data['m'] != '') ? $data['m'] : '';
+    $m = (isset($data['m']) && $data['m'] != '') ? $data['m'] : '0';
     $method_list = require 'project/api/static/Method.php';        
     if (!empty($m) && !empty($method_list[$m])) {
         $method = $method_list[$m];
@@ -33,19 +33,18 @@
         require 'project/api/'.$table.'.php';
         $class = '\\project\\api\\'.$table;
         $model = new $class();
-        $res = $model->$function();
-        echo json_encode($res);
-        if (KITE_DEBUG) {
-            $res_log = "status=".$res['status']." info=".$res['info'];
-            core\Log::record($res_log,'return');
-            core\Log::save(); //如果调试状态 记录日志信息
-            if (VISIT_RECORD) { //如果开启了行为记录
-                core\Db::execute("UPDATE `k_getdata` SET `response_data`=? WHERE (`id`=?)", [$res_log, $id]); //记录返回结果 
-            }
-        }   
+        $res = $model->$function();  
     } else {
          $res = [];
          $res['status'] = 2;//失败
          $res['info'] = "请求失败，无权限";
-         echo json_encode($res); 
     }
+    echo json_encode($res);
+    if (KITE_DEBUG) {
+        $res_log = "status=".$res['status']." info=".$res['info'];
+        core\Log::record($res_log,'return');
+        core\Log::save(); //如果调试状态 记录日志信息
+        if (VISIT_RECORD) { //如果开启了行为记录
+            core\Db::execute("UPDATE `k_getdata` SET `methon`=?, `response_data`=? WHERE (`id`=?)", [$m, $res_log, $id]); //记录返回结果 
+        }
+    }     
