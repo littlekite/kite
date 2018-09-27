@@ -286,6 +286,7 @@ class Db
                 Log::record('SQL:' . $this->queryStr . '[' . $result['extra'] . ']', 'warn');
             }
         }
+        Log::record('SQL:' . $this->queryStr, 'sql');
         Log::record('[ EXPLAIN : ' . var_export($result, true) . ' ]', 'sql');
     }
 }
