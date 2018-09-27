@@ -11,7 +11,13 @@ class Route{
             $path = explode('/', $path_info);
             $path_style = count($path);
             if ($path_style === 1) {
-                return array($path[0], 'index');
+                if (is_numeric($path[0])){
+                    $path[0] = 'home';
+                    $path[1] = 'detail';
+                } else {
+                    $path[1] = 'index';
+                }
+                return $path;
             } else if ($path_style === 2){ //标准模式
                 return $path;
             } else if ($path_style === 3) { //带模块/控制器/
