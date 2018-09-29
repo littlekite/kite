@@ -28,7 +28,11 @@
         );
         */
         if ($current - 1 == 1){
-           $href = ($target) ;
+           if (substr($target, -1) == "&") {
+              $href = substr($target,0,strlen($target)-1); 
+           } else {
+              $href = ($target) ;
+           }  
         } else {
            $href = ($target) . 'more_' . ($current - 1) . '.html'; 
         }
@@ -79,18 +83,22 @@
                 );
                 */
                 if ($current + $x - $leading == 1){
-                   $href = ($target) ;
+                   if (substr($target, -1) == "&") {
+                      $href = substr($target,0,strlen($target)-1); 
+                   } else {
+                      $href = ($target) ;
+                   }
                 } else {
                     $href = ($target) . 'more_' . ($current + $x - $leading) . '.html';
                 }
                 
 ?>
-    <li class="number"><a data-pagenumber="<?= ($current + $x - $leading) ?>" href="<?= ($href) ?>"><?= ($current + $x - $leading) ?></a></li>
+   <a data-pagenumber="<?= ($current + $x - $leading) ?>" href="<?= ($href) ?>"> <li class="number"><?= ($current + $x - $leading) ?></li></a>
 <?php
             }
             // print current page
 ?>
-    <li class="number active"><a data-pagenumber="<?= ($current) ?>" href="#"><?= ($current) ?></a></li>
+    <a data-pagenumber="<?= ($current) ?>" href="#"><li class="number active"><?= ($current) ?></li></a>
 <?php
             // generate/render trailing crumbs
             for ($x = 0; $x < $trailing; ++$x) {
@@ -107,7 +115,7 @@
                 */
                 $href = ($target) . 'more_' . ($current + $x + 1) . '.html';
 ?>
-    <li class="number"><a data-pagenumber="<?= ($current + $x + 1) ?>" href="<?= ($href) ?>"><?= ($current + $x + 1) ?></a></li>
+    <a data-pagenumber="<?= ($current + $x + 1) ?>" href="<?= ($href) ?>"><li class="number"><?= ($current + $x + 1) ?></li></a>
 <?php
             }
         }
@@ -133,7 +141,7 @@
             array_push($classes, 'disabled');
         }
 ?>
-    <li class="<?= implode(' ', $classes) ?>"><a href="<?= ($href) ?>"><?= ($next) ?></a></li>
+    <a href="<?= ($href) ?>"><li class="<?= implode(' ', $classes) ?>"><?= ($next) ?></li></a>
 </ul>
 <?php
     }
