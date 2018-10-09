@@ -35,16 +35,22 @@
         $model = new $class();
         $res = $model->$function();  
     } else {
-         $res = [];
-         $res['status'] = 2;//失败
-         $res['info'] = "请求失败，无权限";
+        $res = [];
+        $res['status'] = 2;//失败
+        $res['info'] = "请求失败，无权限";
     }
-    echo json_encode($res);
     if (KITE_DEBUG) {
-        $res_log = "status=".$res['status']." info=".$res['info'];
+        if (is_array($res['info'])) {
+            $info = json_encode($res['info']);
+        } else {
+            $info = $res['info'];
+        }
+        $res_log = "status=".$res['status']." info=".$info;
         core\Log::record($res_log,'return');
         core\Log::save(); //如果调试状态 记录日志信息
         if (VISIT_RECORD) { //如果开启了行为记录
             core\Db::execute("UPDATE `k_getdata` SET `methon`=?, `response_data`=? WHERE (`id`=?)", [$m, $res_log, $id]); //记录返回结果 
         }
-    }     
+    } 
+    echo json_encode($res);
+       
