@@ -36,11 +36,13 @@ class Kite{
             } else {
                $controller = 'project\home\error'; 
                $action = 'error'; 
+               http_response_code(404);
             } 
          } else { //404
             define('MOUDEL_NAME', 'home');
             $controller = 'project\home\error'; 
             $action = 'error';
+            http_response_code(404);
          }
          $class = new $controller();
          $class->$action();
