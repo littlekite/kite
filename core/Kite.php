@@ -32,7 +32,12 @@ class Kite{
                 } else {
                     $action = $route[2];
                 }
-                $controller = 'project\\'.$route[0].'\\'. $route[1].'\\'.ucfirst($action);
+                if (strlen($action)==1){
+                    $action = 'index';
+                    $controller = 'project\\'.$route[0].'\\'. $route[1].'\\Index'; 
+                } else {
+                    $controller = 'project\\'.$route[0].'\\'. $route[1].'\\'.ucfirst($action);
+                } 
             } else {
                $controller = 'project\home\error'; 
                $action = 'error'; 
