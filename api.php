@@ -35,9 +35,7 @@
         $model = new $class();
         $res = $model->$function();  
     } else {
-        $res = [];
-        $res['status'] = 2;//失败
-        $res['info'] = "请求失败，无权限";
+        $res = ['status'=>2, 'info'=>"no permission"];
     }
     if (KITE_DEBUG) {
         if (is_array($res['info'])) {

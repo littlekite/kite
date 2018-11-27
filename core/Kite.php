@@ -22,7 +22,12 @@ class Kite{
                 } else {
                     $action = $route[1];
                 }
-                $controller = 'project\\'.$route[0].'\\'.ucfirst($action);
+                if (strlen($action)==1){
+                    $action = 'index';
+                    $controller = 'project\\'.$route[0].'\\Index'; 
+                } else {
+                    $controller = 'project\\'.$route[0].'\\'.ucfirst($action);
+                }
             } elseif (count($route) == 3 && !empty($route[1]) && empty($route[2])){
                 $controller = 'project\\'.$route[0].'\\'. $route[1].'\\Index'; 
                 $action = 'index';
