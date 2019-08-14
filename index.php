@@ -10,10 +10,6 @@
  * link https://github.com/littlekite/kite
  * email 1026431088@qq.com
  */
-$vipprice_list = explode('|','9');
-print_r($vipprice_list);
-$last_money = 90*(9*0.1);
-echo $last_money;
 define('KITE_DEBUG', true); //调试按钮
 define('DS', DIRECTORY_SEPARATOR);
 define('APP_PATH', __DIR__ . DS);

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>{$article['title']}_小风筝</title>
+    <meta name="keywords" content="{$article['keywords']}" />
+    <meta name="description" content="{$article['description']}" />
+    {include file='public/resources_head'}
+    <link rel="stylesheet" type="text/css" href="/css/swipebox.css">
+</head>
+<body class="home">
+    {include file='public/header'}
+        <div class="content" style="padding-top: 5px;">
+            <blockquote class="index-tips"><img style="margin-top: -5px;margin-right: 3px;" src="images/hot.gif" >精选：<a href="/{$article['id']}.html">{$article['title']}</a></blockquote>
+               <div class="layui-row layui-col-space5">
+                <div class="layui-col-md12">
+                  <div class="layui-card"  style="border: 1px solid #dedede;">
+                    <h2 class="layui-card-header" style="font-size: 1.4em;color: #333;font-weight: bold;height: auto;">{$article['title']}</h2>
+                    <div class="layui-card-body" style="font-size: 16px;">
+                      {if ($article['rele_type']==2)}
+                      {foreach($article['c_list'] as $k=>$r)}
+                            {if ($k%6==0)}
+                            <div class="layui-row layui-col-space5" style="margin-bottom: 15px;">
+                            <div class="layui-col-xs6 layui-col-sm4 layui-col-md2" style="text-align: center;">
+                            <a href="{$r['headpic']}" class="swipebox">
+                            <img src="{$r['headpic']}" alt="{$r['alt']} {$r['title']}" title="{$r['title']}" class="headpic"/>
+                            </a>
+                            <div class="info_title">{$r['title']}</div>
+                            </div>
+                            {else}
+                            <div class="layui-col-xs6 layui-col-sm4 layui-col-md2" style="text-align: center;">
+                            <a href="{$r['headpic']}" class="swipebox">
+                            <img src="{$r['headpic']}" alt="{$r['alt']} {$r['title']}" title="{$r['title']}" class="headpic"/>
+                            </a>
+                            <div class="info_title">{$r['title']}</div>
+                            </div>
+                            {/if}
+                            {if ($k%6==5)}
+                            </div>
+                            {/if}
+                      {/foreach}
+                      {else}
+                        {foreach($article['c_list'] as $k=>$r)}
+                            {if ($k%4==0)}
+                            <div class="layui-row layui-col-space10" style="margin-bottom: 15px;">
+                            <div class="layui-col-xs6 layui-col-sm4 layui-col-md3" style="text-align: center;">
+                            <a href="{$r['expresstion']}" class="swipebox">
+                            <img src="{$r['expresstion']}" alt="{$r['alt']} {$r['title']}" title="{$r['title']}" width="{$r['w']}" height="{$r['h']}"/>
+                            </a>
+                            <div class="info_title">{$r['title']}</div>
+                            </div>
+                            {else}
+                            <div class="layui-col-xs6 layui-col-sm4 layui-col-md3" style="text-align: center;">
+                            <a href="{$r['expresstion']}" class="swipebox">
+                            <img src="{$r['expresstion']}" alt="{$r['alt']} {$r['title']}" title="{$r['title']}" width="{$r['w']}" height="{$r['h']}" />
+                            </a>
+                            <div class="info_title">{$r['title']}</div>
+                            </div>
+                            {/if}
+                            {if ($k%4==3)}
+                            </div>
+                            {/if}
+                        {/foreach}
+                      {/if}
+                      <div class="layui-col-xs12 layui-col-sm12 layui-col-md12">
+                      {$article['description']}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+  </div>
+    {include file='public/footer'}
+    {include file='public/resources_foot'}
+    <script src="/js/jquery-1.9.1.min.js" charset="utf-8"></script>
+    <script src="/js/jquery.swipebox.js" charset="utf-8"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  	$('.swipebox').swipebox();
+});
+</script>
+</body>
+</html>

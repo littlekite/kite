@@ -8,6 +8,10 @@ class Input
         $data = $_POST;
         if (empty($data)) {
             $data = $_POST = $_GET;
+            if (empty($data)) {
+                $data = file_get_contents('php://input');
+                $data = json_decode($data, true);
+            }
         } else {
             if (!empty($_GET['m'])) {
                 $data['m'] = $_GET['m'];
