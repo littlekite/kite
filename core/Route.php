@@ -3,11 +3,13 @@ namespace core;
 class Route{
     //路由检测
     public static function check(){
-        if( isset($_SERVER['PATH_INFO']) ){
-            if (strrpos($_SERVER['PATH_INFO'], 'html')) {
-                 $_SERVER['PATH_INFO'] = substr($_SERVER['PATH_INFO'], 0, -5);
+        $path_info = (empty($_SERVER['PATH_INFO']) && $_SERVER['REDIRECT_PATH_INFO']) ? $_SERVER['REDIRECT_PATH_INFO'] :  $_SERVER['PATH_INFO'];
+        if( isset($path_info) ){
+            if (strrpos($path_info, 'html')) {
+                 $path_info = substr($path_info, 0, -5);
             }
-            $path_info = ltrim($_SERVER['PATH_INFO'], '/');
+            $path_info = ltrim($path_info, '/');
+            define('PATH_INFO', $path_info);
             $path = explode('/', $path_info);
             $path_style = count($path);
             if ($path_style === 1) {
