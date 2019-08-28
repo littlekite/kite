@@ -10,7 +10,7 @@ class Route{
         } elseif (!empty($_SERVER['REQUEST_URI'])){
             $path_info = $_SERVER['REQUEST_URI'];
         }
-        if( isset($path_info) ){
+        if( isset($path_info) && $path_info != "/"){
             if (strrpos($path_info, 'html')) {
                  $path_info = substr($path_info, 0, -5);
             }
