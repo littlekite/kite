@@ -43,6 +43,10 @@
         } else {
             $info = $res['info'];
         }
+        $error = error_get_last();
+        if(!empty($error)){
+            $info = $info."  other".json_encode($error);
+        }
         $res_log = "status=".$res['status']." info=".$info;
         core\Log::record($res_log,'return');
         core\Log::save(); //如果调试状态 记录日志信息
