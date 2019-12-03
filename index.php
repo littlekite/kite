@@ -22,10 +22,10 @@ if (KITE_DEBUG) {
     error_reporting(E_ALL); //报告所有错误
     ini_set("display_errors", 1); //显示错误
 }
-require __DIR__.'/core/Autoload.php'; //加载核心自动载入文件
-require __DIR__.'/core/Common.php';//加载功能函数文件
-core\Kite::run(); //启动web程序
+require __DIR__.'/vendor/Autoload.php'; //加载核心自动载入文件
+require __DIR__.'/Common.php';//加载功能函数文件
+Kite\Kite::run(); //启动web程序
 if (KITE_DEBUG) {
-    core\Log::save(); //如果调试状态 记录日志信息
+    Kite\Log::save(); //如果调试状态 记录日志信息
 }
 ?>

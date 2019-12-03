@@ -1,0 +1,14 @@
+{
+    "name": "kite/core",
+    "description": "Async, streaming plaintext TCP/IP and secure TLS socket server and client connections for ReactPHP",
+    "keywords": ["async", "socket", "stream", "connection", "ReactPHP"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kite\\": "kite/core"
+        }
+    }
+}

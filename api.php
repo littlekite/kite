@@ -8,8 +8,8 @@
     define('RUNTIME_PATH', SERVER_PATH . 'runtime' . DS);
     define('CACHE_PATH', RUNTIME_PATH . 'cache' . DS);
     define('LOG_PATH', RUNTIME_PATH . '/log/api' .DS);
-    require __DIR__.'/core/Autoload.php';
-    require __DIR__.'/core/Common.php';
+    require __DIR__.'/vendor/Autoload.php';
+    require __DIR__.'/Common.php';
     $data = input();
     if (KITE_DEBUG) {
         error_reporting(E_ALL);
@@ -20,8 +20,8 @@
             } else {
                 $d_string = "have request but no params";  
             }
-            core\Db::execute("INSERT INTO `k_getdata` (`id`, `data`, `data_url`) VALUES (null, ?, ?)", [$d_string, $_SERVER['REQUEST_URI']]); //记录每一个请求信息
-            $id = core\Db::getId(); //获取请求记录的ID
+            Kite\Db::execute("INSERT INTO `k_getdata` (`id`, `data`, `data_url`) VALUES (null, ?, ?)", [$d_string, $_SERVER['REQUEST_URI']]); //记录每一个请求信息
+            $id = Kite\Db::getId(); //获取请求记录的ID
         }
     }
     $m = (isset($data['m']) && $data['m'] != '') ? $data['m'] : '0';
@@ -48,10 +48,10 @@
             $info = $info."  other".json_encode($error);
         }
         $res_log = "status=".$res['status']." info=".$info;
-        core\Log::record($res_log,'return');
-        core\Log::save(); //如果调试状态 记录日志信息
+        Kite\Log::record($res_log,'return');
+        Kite\Log::save(); //如果调试状态 记录日志信息
         if (VISIT_RECORD) { //如果开启了行为记录
-            core\Db::execute("UPDATE `k_getdata` SET `methon`=?, `response_data`=? WHERE (`id`=?)", [$m, $res_log, $id]); //记录返回结果 
+            Kite\Db::execute("UPDATE `k_getdata` SET `methon`=?, `response_data`=? WHERE (`id`=?)", [$m, $res_log, $id]); //记录返回结果 
         }
     } 
     echo json_encode($res);
