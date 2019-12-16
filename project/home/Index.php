@@ -1,12 +1,11 @@
 <?php
 namespace project\home;
-use core\Template;
-use core\Db;
-use core\tpcl\ComFun\ComFun;
+use Kite\Template;
+use Kite\Db;
+use Kite \tpcl\ComFun\ComFun;
 class Index{
     public function index(){
         $temp = new Template();
-        echo 122222222222;
         $temp->display('index');
     }	   
 }

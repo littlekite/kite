@@ -1,0 +1,38 @@
+[ 2019-12-16T14:49:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.kp.com/ [运行时间：0.009001s][吞吐率：111.10req/s] [内存消耗：160.60kb] [文件加载：13]
+array (
+  0 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\index.php',
+  1 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\vendor\\autoload.php',
+  2 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\vendor\\composer\\autoload_real.php',
+  3 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\vendor\\composer\\ClassLoader.php',
+  4 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\vendor\\composer\\autoload_static.php',
+  5 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\Common.php',
+  6 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\kite\\core\\Kite.php',
+  7 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\kite\\core\\Route.php',
+  8 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\Config.php',
+  9 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\project\\home\\Index.php',
+  10 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\kite\\core\\Template.php',
+  11 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  12 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
+[ 2019-12-16T15:31:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.kp.com/ [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：160.56kb] [文件加载：13]
+array (
+  0 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\index.php',
+  1 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\vendor\\autoload.php',
+  2 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\vendor\\composer\\autoload_real.php',
+  3 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\vendor\\composer\\ClassLoader.php',
+  4 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\vendor\\composer\\autoload_static.php',
+  5 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\Common.php',
+  6 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\kite\\core\\Kite.php',
+  7 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\kite\\core\\Route.php',
+  8 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\Config.php',
+  9 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\project\\home\\Index.php',
+  10 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\kite\\core\\Template.php',
+  11 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\runtime\\cache\\6a992d5529f459a44fee58c733255e86.php',
+  12 => 'D:\\phpstudy_pro\\WWW\\www.kp.com\\kite\\kite\\core\\Log.php',
+)
+
+---------------------------------------------------------------
