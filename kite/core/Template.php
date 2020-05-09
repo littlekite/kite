@@ -2,30 +2,49 @@
 namespace Kite;
 class Template{
     protected $data = array();
+    protected $includeFile = array();
     //渲染模板
     public function display($name){
         $tem_path = APP_PATH.'project'. DS . MOUDEL_NAME . DS .'view'. DS .$name.'.html';
         if (!is_file($tem_path)) {
             throw new \Exception('template is not found!');
-        } 
-        $c = file_get_contents($tem_path);
-        $run_name = $name;
-        $this->parseInclude($c);//包含标签解析
-        $this->parseTag($c);//表达式解析if foreach
-        $this->parse($c);//变量解析
+        }
         //判断缓存文件是否需要更新
-        $path = CACHE_PATH.md5($run_name).'.php';
-        if(is_file( $path)){
+        $this->includeFile[$tem_path] = filemtime($tem_path);
+        $path = CACHE_PATH.md5($name).'.php';
+        if (!$this->checkCache($path)) {
+            // 缓存无效 模板编译
+            $c = file_get_contents($tem_path);
+            $this->parseInclude($c);//包含标签解析
+            $this->parseTag($c);//表达式解析if foreach
+            $this->parse($c);//变量解析
+            $this->write($path,$c);
+        }
+        $this->read(CACHE_PATH.md5($name).'.php'); 
+    }
+    public function checkCache($path){
+        if(is_file($path)){
             $handle = @fopen( $path, "r");
             // 读取第一行
             preg_match('/\/\*(.+?)\*\//', fgets($handle), $matches);
             if (!isset($matches[1])) {
-                $this->write($path,$c);
+                return false;
             }
+            $includeFile = unserialize($matches[1]);
+            if (!is_array($includeFile)) {
+                return false;
+            }
+            // 检查模板文件是否有更新
+            foreach ($includeFile as $path => $time) {
+                if (is_file($path) && filemtime($path) > $time) {
+                   // 模板文件如果有更新则缓存需要更新
+                   return false;
+                }
+            }
+            return true;
         } else {
-            $this->write($path,$c);
+            return false;
         }
-        $this->read(CACHE_PATH.md5($run_name).'.php'); 
     }
     public function assign($name,$value = null){
         if(is_array($name)){
@@ -236,6 +255,7 @@ class Template{
      * 解析模板中的include标签
      * @access private
      * @param  string $content 要解析的模板内容
+     * @uses {include file='public\header'}
      * @return void
      */
     private function parseInclude(&$c)
@@ -246,9 +266,12 @@ class Template{
                 foreach ($matches as $match) {
                     $array = $this->parseAttr($match[0],'','');
                     $file  = $array['file'];
+                    if (is_file(APP_PATH.'project'.DS.$file.'.html')) {
+                        $this->includeFile[APP_PATH.'project'.DS.$file.'.html'] = filemtime(APP_PATH.'project'.DS.$file.'.html');
+                    }
                     unset($array['file']);
                     // 分析模板文件名并读取内容
-                    $parseStr = file_get_contents(APP_PATH.'public/'.$file.'.html');
+                    $parseStr = file_get_contents(APP_PATH.'project/'.$file.'.html');
                     foreach ($array as $k => $v) {
                         // 以$开头字符串转换成模板变量
                         if (0 === strpos($v, '$')) {
@@ -299,6 +322,7 @@ class Template{
         if (!is_dir($dir)) {
             mkdir($dir, 0755, true);
         }
+        $content = '<?php /*' .  serialize($this->includeFile) . '*/ ?>' . "\n" . $content;
         // 生成模板缓存文件
         if (false === file_put_contents($cacheFile, $content)) {
             throw new Exception('cache write error:' . $cacheFile, 11602);

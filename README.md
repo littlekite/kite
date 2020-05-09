@@ -11,6 +11,7 @@ kite framwork
 ## 目录  
 * [index.php    主入口文件]
 * [api.php      API入口文件]
+* [composer.json   composer配置文件]
 * [Config.php   数据库连接文件]
 * [core      核心类库] 
     * [data     数据文件目录]  
@@ -18,7 +19,6 @@ kite framwork
     * [Template.php     模板解析文件]
     * [Route.php     路由文件]
     * [Kite.php     核心入口]
-    * [autoload.php     自动加载文件]
     * [Input.php     数据获取文件]
     * [Db.php     数据库操作类件]
 	* [Session.php    Session会员管理文件]
@@ -37,3 +37,4 @@ kite framwork
     * [cache       数据缓存目录] 
     * [log         日志数据存取目录]  	
 * [public      公共资源目录]
+* [vendor      第三方类库]
